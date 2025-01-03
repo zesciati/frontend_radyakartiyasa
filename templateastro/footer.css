@@ -1,0 +1,209 @@
+.footers {
+  background: var(--primary, #0e3121);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1440px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  overflow: hidden;
+}
+.container15 {
+  background: #062416;
+  padding: 64px 0px 64px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.content33 {
+  display: flex;
+  flex-direction: row;
+  gap: 459px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1216px;
+  position: relative;
+}
+.content44 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 384px;
+  position: relative;
+}
+.logo-putih-12 {
+  flex-shrink: 0;
+  width: 140px;
+  height: 57px;
+  position: relative;
+  overflow: hidden;
+}
+.clip-path-group2 {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.supporting-text27 {
+  color: var(--text-body, #e5e7eb);
+  text-align: left;
+  font-family: "AnekBangla-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.frame-270 {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.container16 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 168px;
+  position: relative;
+}
+.headline2 {
+  color: var(--text-placeholder, #9ca3af);
+  text-align: left;
+  font-family: var(--body-small-medium-font-family, "Inter-Medium", sans-serif);
+  font-size: var(--body-small-medium-font-size, 16px);
+  line-height: var(--body-small-medium-line-height, 24px);
+  font-weight: var(--body-small-medium-font-weight, 500);
+  position: relative;
+  align-self: stretch;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.supporting-text3 {
+  color: var(--text-heading-primary, #f9fafb);
+  text-align: left;
+  font-family: var(--body-small-medium-font-family, "Inter-Medium", sans-serif);
+  font-size: var(--body-small-medium-font-size, 16px);
+  line-height: var(--body-small-medium-line-height, 24px);
+  font-weight: var(--body-small-medium-font-weight, 500);
+  position: relative;
+}
+.section {
+  background: var(--miscellaneous-bar-border, rgba(0, 0, 0, 0.3));
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1440px;
+  position: relative;
+  overflow: hidden;
+}
+.container17 {
+  padding: 0px 0px 32px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.container18 {
+  border-style: solid;
+  border-color: var(--border-border-secondary, #374151);
+  border-width: 1px 0px 0px 0px;
+  padding: 32px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1216px;
+  position: relative;
+}
+.copyright-and-social-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.copyright {
+  color: var(--text-body, #e5e7eb);
+  text-align: left;
+  font-family: var(
+    --body-small-regular-font-family,
+    "Inter-Regular",
+    sans-serif
+  );
+  font-size: var(--body-small-regular-font-size, 16px);
+  line-height: var(--body-small-regular-line-height, 24px);
+  font-weight: var(--body-small-regular-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.social-icons2 {
+  border-radius: 6px;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.social-icons3 {
+  border-radius: 50px;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.social-icons4 {
+  flex-shrink: 0;
+  width: 19.17px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}

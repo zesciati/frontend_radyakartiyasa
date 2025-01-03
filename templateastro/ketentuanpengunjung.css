@@ -1,0 +1,220 @@
+.frame-34 {
+  background: #0e3121;
+  width: 1440px;
+  height: 440px;
+  position: absolute;
+  left: 0px;
+  top: 2203px;
+  overflow: hidden;
+}
+.image3 {
+  width: 714px;
+  height: 441px;
+  position: absolute;
+  left: 726px;
+  top: -1px;
+  object-fit: cover;
+}
+.frame-45 {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 561px;
+  position: absolute;
+  left: 112px;
+  top: 50%;
+  translate: 0 -50%;
+}
+.heading-and-supporting-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 506px;
+  max-width: 768px;
+  position: relative;
+}
+.frame-40 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-6 {
+  flex-shrink: 0;
+  width: 50px;
+  height: 45.95px;
+  position: relative;
+  overflow: visible;
+}
+.heading {
+  color: var(--grays-white, #ffffff);
+  text-align: left;
+  font-family: "TenorSans-Regular", sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  position: relative;
+}
+.frame-43 {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.horizontal-tabs {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #d6a84d;
+  border-width: 0px 0px 1px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.tab-button {
+  background: #d6a84d;
+  padding: 8px 14px 8px 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 89px;
+  position: relative;
+  overflow: hidden;
+}
+.text2 {
+  color: var(--primary, #0e3121);
+  text-align: left;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  position: relative;
+}
+.tab-button2 {
+  border-radius: 6px;
+  padding: 8px 14px 8px 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 89px;
+  position: relative;
+  overflow: hidden;
+}
+.text3 {
+  color: var(--grays-white, #ffffff);
+  text-align: left;
+  font-family: var(--body-small-medium-font-family, "Inter-Medium", sans-serif);
+  font-size: var(--body-small-medium-font-size, 16px);
+  line-height: var(--body-small-medium-line-height, 24px);
+  font-weight: var(--body-small-medium-font-weight, 500);
+  position: relative;
+}
+.frame-42 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.check-list-item {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.check-icons {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.check {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.datang-1-jam-lebih-awal {
+  color: var(--grays-white, #ffffff);
+  text-align: left;
+  font-family: "AnekBangla-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+  flex: 1;
+}
+.check2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.mengenakan-pakaian-yang-sopan-nyaman-dan-berlengan {
+  color: var(--grays-white, #ffffff);
+  text-align: left;
+  font-family: "AnekBangla-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+  flex: 1;
+}
+.check3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.diperbolehkan-mendokumentasikan-koleksi-sesuai-arahan-petugas {
+  color: var(--grays-white, #ffffff);
+  text-align: left;
+  font-family: "AnekBangla-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+  flex: 1;
+}

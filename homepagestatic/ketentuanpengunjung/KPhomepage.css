@@ -1,4 +1,6 @@
-.frame-34 {
+/* SECTION ketentuan pengunjung */
+
+.frame-34ketentuan {
   background: #550B38;
   /* width: 1440px; */
   width: 100%;
@@ -9,7 +11,7 @@
   top: 0px; */
   overflow: hidden;
 }
-.image3 {
+.image3ketentuan {
   /* width: 714px; */
   width: 55%;
   height: 441px;
@@ -18,7 +20,7 @@
   top: -1px;
   object-fit: cover;
 }
-.frame-45 {
+.frame-45ketentuan {
   display: flex;
   flex-direction: column;
   gap: 45px;
@@ -30,7 +32,7 @@
   top: 50%;
   translate: 0 -50%;
 }
-.heading-and-supporting-text {
+.heading-and-supporting-textketentuan {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -41,7 +43,7 @@
   max-width: 768px;
   position: relative;
 }
-.frame-40 {
+.frame-40ketentuan {
   display: flex;
   flex-direction: row;
   gap: 16px;
@@ -50,15 +52,15 @@
   flex-shrink: 0;
   position: relative;
 }
-.group-6 {
+.group-6ketentuan {
   flex-shrink: 0;
   width: 50px;
   height: 45.95px;
   position: relative;
   overflow: visible;
 }
-.heading {
-  color: var(--grays-white, #0E3121);
+.headingketentuan {
+  color: var(--grays-white, #ffffff);
   text-align: left;
   font-family: "TenorSans-Regular", sans-serif;
   font-size: 36px;
@@ -67,7 +69,7 @@
   font-weight: 400;
   position: relative;
 }
-.frame-43 {
+.frame-43ketentuan {
   display: flex;
   flex-direction: column;
   gap: 36px;
@@ -77,7 +79,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.horizontal-tabs {
+.horizontal-tabsketentuan {
   border-radius: 8px;
   border-style: solid;
   border-color: #d6a84d;
@@ -91,7 +93,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.tab-button {
+.tab-buttonketentuan {
   background: #d6a84d;
   padding: 8px 14px 8px 14px;
   display: flex;
@@ -104,7 +106,7 @@
   position: relative;
   overflow: hidden;
 }
-.text2 {
+.text2ketentuan {
   color: var(--primary, #0e3121);
   text-align: left;
   font-family: "Inter-Bold", sans-serif;
@@ -113,7 +115,7 @@
   font-weight: 700;
   position: relative;
 }
-.tab-button2 {
+.tab-button2ketentuan {
   border-radius: 6px;
   padding: 8px 14px 8px 14px;
   display: flex;
@@ -126,7 +128,7 @@
   position: relative;
   overflow: hidden;
 }
-.text3 {
+.text3ketentuan {
   color: var(--grays-white, #ffffff);
   text-align: left;
   font-family: var(--body-small-medium-font-family, "Inter-Medium", sans-serif);
@@ -135,7 +137,7 @@
   font-weight: var(--body-small-medium-font-weight, 500);
   position: relative;
 }
-.frame-42 {
+.frame-42ketentuan {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -145,7 +147,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.check-list-item {
+.check-list-itemketentuan {
   display: flex;
   flex-direction: row;
   gap: 12px;
@@ -155,13 +157,13 @@
   flex-shrink: 0;
   position: relative;
 }
-.check-icons {
+.check-iconsketentuan {
   flex-shrink: 0;
   width: 24px;
   height: 24px;
   position: relative;
 }
-.check {
+.checkketentuan {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -171,7 +173,7 @@
   top: 0%;
   overflow: visible;
 }
-.datang-1-jam-lebih-awal {
+.datang-1-jam-lebih-awalketentuan {
   color: var(--grays-white, #ffffff);
   text-align: left;
   font-family: "AnekBangla-Regular", sans-serif;
@@ -181,7 +183,7 @@
   position: relative;
   flex: 1;
 }
-.check2 {
+.check2ketentuan {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -191,7 +193,7 @@
   top: 0%;
   overflow: visible;
 }
-.mengenakan-pakaian-yang-sopan-nyaman-dan-berlengan {
+.mengenakan-pakaian-yang-sopan-nyaman-dan-berlenganketentuan {
   color: var(--grays-white, #ffffff);
   text-align: left;
   font-family: "AnekBangla-Regular", sans-serif;
@@ -201,7 +203,7 @@
   position: relative;
   flex: 1;
 }
-.check3 {
+.check3ketentuan {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -211,7 +213,7 @@
   top: 0%;
   overflow: visible;
 }
-.diperbolehkan-mendokumentasikan-koleksi-sesuai-arahan-petugas {
+.diperbolehkan-mendokumentasikan-koleksi-sesuai-arahan-petugasketentuan {
   color: var(--grays-white, #ffffff);
   text-align: left;
   font-family: "AnekBangla-Regular", sans-serif;
@@ -222,13 +224,13 @@
   flex: 1;
 }
 
-/* Ulasan Masyarakat */
+/* SECTION Ulasan Masyarakat */
 
-.container,
-.container * {
+.containerulasan,
+.containerulasan * {
   box-sizing: border-box;
 }
-.container {
+.containerulasan {
   padding: 96px 0px 96px 0px;
   display: flex;
   flex-direction: column;
@@ -244,7 +246,7 @@
   
   /* margin-top: 20px; */
 }
-.container2 {
+.container2ulasan {
   padding: 0px 32px 0px 32px;
   display: flex;
   flex-direction: column;
@@ -256,7 +258,7 @@
   max-width: 1280px;
   position: relative;
 }
-.heading-and-supporting-text {
+.heading-and-supporting-textulasan {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -267,7 +269,7 @@
   max-width: 768px;
   position: relative;
 }
-.frame-40 {
+.frame-40ulasan {
   display: flex;
   flex-direction: row;
   gap: 16px;
@@ -276,14 +278,14 @@
   flex-shrink: 0;
   position: relative;
 }
-.group-6 {
+.group-6ulasan {
   flex-shrink: 0;
   width: 50px;
   height: 45.95px;
   position: relative;
   overflow: visible;
 }
-.heading {
+.headingulasan {
   color: var(--primary, #ffffff);
   text-align: left;
   font-family: "TenorSans-Regular", sans-serif;
@@ -293,7 +295,7 @@
   font-weight: 400;
   position: relative;
 }
-.supporting-text {
+.supporting-textulasan {
   color: var(--text-body, #4b5563);
   text-align: left;
   font-family: "AnekBangla-Regular", sans-serif;
@@ -303,7 +305,7 @@
   position: relative;
   align-self: stretch;
 }
-.content {
+.contentulasan {
   display: flex;
   flex-direction: row;
   gap: 32px;
@@ -315,7 +317,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.cards {
+.cardsulasan {
   background: var(--background-bg-primary, #ffffff);
   border-radius: 16px;
   border-style: solid;
@@ -333,7 +335,7 @@
   position: relative;
   overflow: hidden;
 }
-.content2 {
+.content2ulasan {
   padding: 0px 32px 0px 32px;
   display: flex;
   flex-direction: column;
@@ -344,7 +346,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.header {
+.headerulasan {
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -354,7 +356,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.stars {
+.starsulasan {
   display: flex;
   flex-direction: row;
   gap: 4px;
@@ -363,14 +365,14 @@
   flex-shrink: 0;
   position: relative;
 }
-.star-icon {
+.star-iconulasan {
   flex-shrink: 0;
   width: 16px;
   height: 16px;
   position: relative;
   overflow: hidden;
 }
-.star-background {
+.star-backgroundulasan {
   border-radius: 0px;
   width: 100%;
   height: 100%;
@@ -381,7 +383,7 @@
   top: 2.5%;
   overflow: visible;
 }
-.star {
+.starulasan {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -391,7 +393,7 @@
   top: 0%;
   overflow: visible;
 }
-.star-background2 {
+.star-background2ulasan {
   border-radius: 0px;
   width: 100%;
   height: 100%;
@@ -402,7 +404,7 @@
   top: 2.5%;
   overflow: visible;
 }
-.star2 {
+.star2ulasan {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -412,7 +414,7 @@
   top: 0%;
   overflow: visible;
 }
-.star-background3 {
+.star-background3ulasan {
   border-radius: 0px;
   width: 100%;
   height: 100%;
@@ -423,7 +425,7 @@
   top: 2.5%;
   overflow: visible;
 }
-.star3 {
+.star3ulasan {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -433,7 +435,7 @@
   top: 0%;
   overflow: visible;
 }
-.star-background4 {
+.star-background4ulasan {
   border-radius: 0px;
   width: 100%;
   height: 100%;
@@ -444,7 +446,7 @@
   top: 2.5%;
   overflow: visible;
 }
-.star4 {
+.star4ulasan {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -454,7 +456,7 @@
   top: 0%;
   overflow: visible;
 }
-.star-background5 {
+.star-background5ulasan {
   border-radius: 0px;
   width: 100%;
   height: 100%;
@@ -465,7 +467,7 @@
   top: 2.5%;
   overflow: visible;
 }
-.star5 {
+.star5ulasan {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -475,7 +477,7 @@
   top: 0%;
   overflow: visible;
 }
-.supporting-text2 {
+.supporting-text2ulasan {
   color: var(--text-body, #4b5563);
   text-align: left;
   font-family: "AnekBangla-Regular", sans-serif;
@@ -485,7 +487,7 @@
   position: relative;
   align-self: stretch;
 }
-.avatar-labelled {
+.avatar-labelledulasan {
   display: flex;
   flex-direction: row;
   gap: 16px;
@@ -494,7 +496,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.avatar {
+.avatarulasan {
   background: var(--avatar-women-breanna-butler, undefined);
   border-radius: 50%;
   flex-shrink: 0;
@@ -503,13 +505,13 @@
   position: relative;
   object-fit: cover;
 }
-.label-and-sublabel {
+.label-and-sublabelulasan {
   flex-shrink: 0;
   width: 115px;
   height: 44px;
   position: static;
 }
-.label {
+.labelulasan {
   color: var(--text-heading-primary, #111827);
   text-align: left;
   font-family: var(
@@ -524,7 +526,7 @@
   left: 64px;
   top: 2px;
 }
-.sublabel {
+.sublabelulasan {
   color: var(--text-body, #4b5563);
   text-align: left;
   font-family: var(
@@ -539,7 +541,7 @@
   left: 64px;
   top: 26px;
 }
-.star-background6 {
+.star-background6ulasan {
   border-radius: 0px;
   width: 100%;
   height: 100%;
@@ -550,7 +552,7 @@
   top: 2.5%;
   overflow: visible;
 }
-.star6 {
+.star6ulasan {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -560,7 +562,7 @@
   top: 0%;
   overflow: visible;
 }
-.star-background7 {
+.star-background7ulasan {
   border-radius: 0px;
   width: 100%;
   height: 100%;
@@ -571,7 +573,7 @@
   top: 2.5%;
   overflow: visible;
 }
-.star7 {
+.star7ulasan {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -581,7 +583,7 @@
   top: 0%;
   overflow: visible;
 }
-.star-background8 {
+.star-background8ulasan {
   border-radius: 0px;
   width: 100%;
   height: 100%;
@@ -592,7 +594,7 @@
   top: 2.5%;
   overflow: visible;
 }
-.star8 {
+.star8ulasan {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -602,7 +604,7 @@
   top: 0%;
   overflow: visible;
 }
-.star-background9 {
+.star-background9ulasan {
   border-radius: 0px;
   width: 100%;
   height: 100%;
@@ -613,7 +615,7 @@
   top: 2.5%;
   overflow: visible;
 }
-.star9 {
+.star9ulasan {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -623,7 +625,7 @@
   top: 0%;
   overflow: visible;
 }
-.star-background10 {
+.star-background10ulasan {
   border-radius: 0px;
   width: 100%;
   height: 100%;
@@ -634,7 +636,7 @@
   top: 2.5%;
   overflow: visible;
 }
-.star10 {
+.star10ulasan {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -644,7 +646,7 @@
   top: 0%;
   overflow: visible;
 }
-.avatar2 {
+.avatar2ulasan {
   background: var(--avatar-men-george-dean, undefined);
   border-radius: 50%;
   flex-shrink: 0;
@@ -653,13 +655,13 @@
   position: relative;
   object-fit: cover;
 }
-.label-and-sublabel2 {
+.label-and-sublabel2ulasan {
   flex-shrink: 0;
   width: 129px;
   height: 44px;
   position: static;
 }
-.star-background11 {
+.star-background11ulasan {
   border-radius: 0px;
   width: 100%;
   height: 100%;
@@ -670,7 +672,7 @@
   top: 2.5%;
   overflow: visible;
 }
-.star11 {
+.star11ulasan {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -680,7 +682,7 @@
   top: 0%;
   overflow: visible;
 }
-.star-background12 {
+.star-background12ulasan {
   border-radius: 0px;
   width: 100%;
   height: 100%;
@@ -691,7 +693,7 @@
   top: 2.5%;
   overflow: visible;
 }
-.star12 {
+.star12ulasan {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -701,7 +703,7 @@
   top: 0%;
   overflow: visible;
 }
-.star-background13 {
+.star-background13ulasan {
   border-radius: 0px;
   width: 100%;
   height: 100%;
@@ -712,7 +714,7 @@
   top: 2.5%;
   overflow: visible;
 }
-.star13 {
+.star13ulasan {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -722,7 +724,7 @@
   top: 0%;
   overflow: visible;
 }
-.star-background14 {
+.star-background14ulasan {
   border-radius: 0px;
   width: 100%;
   height: 100%;
@@ -733,7 +735,7 @@
   top: 2.5%;
   overflow: visible;
 }
-.star14 {
+.star14ulasan {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -743,7 +745,7 @@
   top: 0%;
   overflow: visible;
 }
-.star-background15 {
+.star-background15ulasan {
   border-radius: 0px;
   width: 100%;
   height: 100%;
@@ -754,7 +756,7 @@
   top: 2.5%;
   overflow: visible;
 }
-.star15 {
+.star15ulasan {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -764,7 +766,7 @@
   top: 0%;
   overflow: visible;
 }
-.avatar3 {
+.avatar3ulasan {
   background: var(--avatar-men-robert-nguyen, undefined);
   border-radius: 50%;
   flex-shrink: 0;
@@ -773,13 +775,13 @@
   position: relative;
   object-fit: cover;
 }
-.label-and-sublabel3 {
+.label-and-sublabel3ulasan {
   flex-shrink: 0;
   width: 117px;
   height: 44px;
   position: static;
 }
-/* Pojok Pitakonan */
+/* SECTION Pojok Pitakonan */
 .fa-qs,
 .fa-qs * {
   box-sizing: border-box;

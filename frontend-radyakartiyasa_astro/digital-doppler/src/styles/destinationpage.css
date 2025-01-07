@@ -941,20 +941,29 @@
   left: 1048px;
   top: 1903px;
 }
-.footers {
+/* SECTION footer */
+
+/* ingin konten pas dibawah dengan menghapus position absolute */
+.footersbawah,
+.footersbawah * {
+  box-sizing: border-box;
+}
+.footersbawah {
   background: var(--primary, #0e3121);
   display: flex;
   flex-direction: column;
   gap: 0px;
   align-items: center;
   justify-content: flex-start;
-  width: 100%;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
+  position: relative;
   overflow: hidden;
+  /* position: fixed; */
+  /* bottom: 0; */
+  left: 0;
+  top: 87.6%;
+  /* width: 100%; */
 }
-.container5 {
+.containerbawah {
   background: #062416;
   padding: 64px 0px 64px 0px;
   display: flex;
@@ -965,8 +974,9 @@
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
+  
 }
-.content3 {
+.contentbawah {
   display: flex;
   flex-direction: row;
   gap: 459px;
@@ -976,7 +986,7 @@
   width: 1216px;
   position: relative;
 }
-.content4 {
+.content2bawah {
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -986,21 +996,21 @@
   width: 384px;
   position: relative;
 }
-.logo-putih-12 {
+.logo-putih-1bawah {
   flex-shrink: 0;
   width: 140px;
   height: 57px;
   position: relative;
   overflow: hidden;
 }
-.clip-path-group2 {
+.clip-path-groupbawah {
   height: auto;
   position: absolute;
   left: 0px;
   top: 0px;
   overflow: visible;
 }
-.supporting-text2 {
+.supporting-textbawah {
   color: var(--text-body, #e5e7eb);
   text-align: left;
   font-family: "AnekBangla-Regular", sans-serif;
@@ -1010,7 +1020,7 @@
   position: relative;
   align-self: stretch;
 }
-.frame-27 {
+.frame-27bawah {
   display: flex;
   flex-direction: row;
   gap: 32px;
@@ -1019,7 +1029,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.container6 {
+.container2bawah {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -1029,7 +1039,17 @@
   width: 168px;
   position: relative;
 }
-.headline2 {
+.content3bawah {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.headlinebawah {
   color: var(--text-placeholder, #9ca3af);
   text-align: left;
   font-family: var(--body-small-medium-font-family, "Inter-Medium", sans-serif);
@@ -1039,7 +1059,7 @@
   position: relative;
   align-self: stretch;
 }
-.links {
+.linksbawah {
   display: flex;
   flex-direction: row;
   gap: 8px;
@@ -1049,7 +1069,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.supporting-text3 {
+.supporting-text2bawah {
   color: var(--text-heading-primary, #f9fafb);
   text-align: left;
   font-family: var(--body-small-medium-font-family, "Inter-Medium", sans-serif);
@@ -1058,7 +1078,7 @@
   font-weight: var(--body-small-medium-font-weight, 500);
   position: relative;
 }
-.section {
+.sectionbawah {
   background: var(--miscellaneous-bar-border, rgba(0, 0, 0, 0.3));
   display: flex;
   flex-direction: column;
@@ -1066,11 +1086,11 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 1440px;
+  width: 100%;
   position: relative;
   overflow: hidden;
 }
-.container7 {
+.container3bawah {
   padding: 0px 0px 32px 0px;
   display: flex;
   flex-direction: column;
@@ -1081,7 +1101,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.container8 {
+.container4bawah {
   border-style: solid;
   border-color: var(--border-border-secondary, #374151);
   border-width: 1px 0px 0px 0px;
@@ -1095,7 +1115,7 @@
   width: 1216px;
   position: relative;
 }
-.copyright-and-social-links {
+.copyright-and-social-linksbawah {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1104,7 +1124,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.copyright {
+.copyrightbawah {
   color: var(--text-body, #e5e7eb);
   text-align: left;
   font-family: var(
@@ -1118,7 +1138,7 @@
   position: relative;
   flex: 1;
 }
-.social-icons {
+.social-iconsbawah {
   display: flex;
   flex-direction: row;
   gap: 16px;
@@ -1127,7 +1147,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.social-icons2 {
+.social-icons2bawah {
   border-radius: 6px;
   flex-shrink: 0;
   width: 20px;
@@ -1135,7 +1155,7 @@
   position: relative;
   overflow: visible;
 }
-.social-icons3 {
+.social-icons3bawah {
   border-radius: 50px;
   flex-shrink: 0;
   width: 20px;
@@ -1143,7 +1163,7 @@
   position: relative;
   overflow: visible;
 }
-.social-icons4 {
+.social-icons4bawah {
   flex-shrink: 0;
   width: 19.17px;
   height: 20px;

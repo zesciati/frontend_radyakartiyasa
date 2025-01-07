@@ -1,0 +1,8 @@
+.logo{
+  margin-left: 10rem;
+}
+.with-blur-background{
+  background-color: rgba(0, 0, 0, 0.5); /* Optional semi-transparent background color for visibility */
+
+  backdrop-filter: blur(5px); /* Adjust blur intensity as needed */
+}

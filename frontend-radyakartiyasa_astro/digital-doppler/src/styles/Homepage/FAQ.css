@@ -1,0 +1,73 @@
+body {
+  background-color: #0e3121;
+  color: #ffffff;
+  font-family: "AnekBangla-Regular", sans-serif;
+}
+
+.faq-heading {
+  font-family: "TenorSans-Regular", sans-serif;
+  font-size: 36px;
+}
+
+.faq-item {
+  border-top: 1px solid #ffffff;
+  padding-top: 24px;
+}
+
+.faq-item h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.faq-item p {
+  font-size: 16px;
+  color: #c7c7cc;
+}
+
+.badge {
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  padding: 2px 8px;
+  border-radius: 6px;
+  color: #15803d;
+  font-size: 12px;
+}
+
+.faq-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .faq-container {
+    flex-direction: column;
+  }
+}
+.collapse-icon {
+  transition: all 0.3s ease-in-out;
+}
+
+.show-icon {
+  display: none; /* Default, hanya muncul saat collapse terbuka */
+}
+
+.hide-icon {
+  display: block; /* Default, muncul saat collapse tertutup */
+}
+
+.collapse.show ~ .icon .show-icon {
+  display: block; /* Tampilkan minus saat terbuka */
+}
+
+.collapse.show ~ .icon .hide-icon {
+  display: none; /* Sembunyikan plus saat terbuka */
+}
+.icon img {
+  width: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon img.hide {
+  display: none;
+}

@@ -1,0 +1,116 @@
+/* .cta-promo,
+.cta-promo * {
+  box-sizing: border-box;
+}
+.cta-promo {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 286px;
+  position: relative;
+}
+.rectangle-10 {
+  background: var(--primary, #0e3121);
+  width: 1440px;
+  height: 286px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.image {
+  width: 1440px;
+  height: 286px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+} 
+.frame-56 {
+  display: flex;
+  flex-direction: row;
+  gap: 349px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1238px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 639px;
+  position: relative;
+}
+.heading {
+  color: var(--gold, #d6a84d);
+  text-align: left;
+  font-family: "TenorSans-Regular", sans-serif;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  position: relative;
+  width: 100%;
+  max-width: 592px;
+}
+.nikmati-acara-eksklusif-akses-tak-terbatas-ke-pameran-dan-ruang-anggota-ditambah-diskon-di-toko-toko-museum-kafe-dan-restoran {
+  color: var(--grays-white, #ffffff);
+  text-align: left;
+  font-family: "AnekBangla-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  height: 61px;
+}
+.actions {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 232px;
+  position: relative;
+}
+.button {
+  border-style: solid;
+  border-color: var(--grays-white, #ffffff);
+  border-width: 1px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 249px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+}
+.text-lg {
+  color: var(--grays-white, #ffffff);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icon-huge-arrow-right-forward {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+} 
+ */

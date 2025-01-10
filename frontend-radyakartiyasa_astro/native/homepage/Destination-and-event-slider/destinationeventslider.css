@@ -1,0 +1,357 @@
+.frame-60,
+.frame-60 * {
+  box-sizing: border-box;
+}
+.frame-60 {
+  background: #fef9ec;
+  padding: 51px 108px 51px 108px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 821px;
+  position: relative;
+}
+.frame-59 {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1220px;
+  position: relative;
+}
+.frame-58 {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.badge {
+  background: var(--semantic-success-50, #f0fdf4);
+  border-radius: 6px;
+  border-style: solid;
+  border-color: var(--semantic-success-200, #bbf7d0);
+  border-width: 1px;
+  padding: 2px 8px 2px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.badge2 {
+  color: var(--semantic-success-700, #15803d);
+  text-align: left;
+  font-family: var(
+    --caption-small-medium-font-family,
+    "Inter-Medium",
+    sans-serif
+  );
+  font-size: var(--caption-small-medium-font-size, 12px);
+  line-height: var(--caption-small-medium-line-height, 18px);
+  font-weight: var(--caption-small-medium-font-weight, 500);
+  position: relative;
+}
+.frame-38 {
+  display: flex;
+  flex-direction: row;
+  gap: 401px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-37 {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-6 {
+  flex-shrink: 0;
+  width: 50px;
+  height: 45.95px;
+  position: relative;
+  overflow: visible;
+}
+.title {
+  color: var(--primary, #0e3121);
+  text-align: left;
+  font-family: "TenorSans-Regular", sans-serif;
+  font-size: 44px;
+  line-height: 54px;
+  letter-spacing: -1.46px;
+  font-weight: 400;
+  position: relative;
+}
+.link {
+  flex-shrink: 0;
+  width: 303px;
+  height: 29px;
+  position: relative;
+}
+.group-3-copy-2 {
+  padding: 1px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  height: 103.45%;
+  position: absolute;
+  left: -0.75px;
+  bottom: 1.72%;
+  top: -5.17%;
+  overflow: hidden;
+}
+.view-all-benefits {
+  color: var(--primary, #0e3121);
+  text-align: left;
+  font-family: var(--small-1-regular-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--small-1-regular-font-size, 18px);
+  line-height: var(--small-1-regular-line-height, 28px);
+  letter-spacing: var(--small-1-regular-letter-spacing, -0.83px);
+  font-weight: var(--small-1-regular-font-weight, 400);
+  position: relative;
+}
+.group {
+  flex-shrink: 0;
+  width: 29.5px;
+  height: 14px;
+  position: relative;
+  overflow: visible;
+}
+.card-booking {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 384px;
+  min-width: 280px;
+  max-width: 384px;
+  position: relative;
+}
+.image {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 256px;
+  position: relative;
+  object-fit: cover;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.headline-and-paragrapah {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.headline {
+  color: var(--primary, #0e3121);
+  text-align: left;
+  font-family: "AnekBangla-Regular", sans-serif;
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.paragraph {
+  color: var(--primary, #0e3121);
+  text-align: left;
+  font-family: var(
+    --body-small-regular-font-family,
+    "Inter-Regular",
+    sans-serif
+  );
+  font-size: var(--body-small-regular-font-size, 16px);
+  line-height: var(--body-small-regular-line-height, 24px);
+  font-weight: var(--body-small-regular-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.frame-24 {
+  display: flex;
+  flex-direction: row;
+  gap: 102px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.text {
+  color: var(--gold, #d6a84d);
+  text-align: left;
+  font-family: var(--body-small-medium-font-family, "Inter-Medium", sans-serif);
+  font-size: var(--body-small-medium-font-size, 16px);
+  line-height: var(--body-small-medium-line-height, 24px);
+  font-weight: var(--body-small-medium-font-weight, 500);
+  position: relative;
+}
+.chevron-right {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.button2 {
+  background: var(--primary, #0e3121);
+  border-style: solid;
+  border-color: var(--primary, #0e3121);
+  border-width: 1px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 135px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+}
+.text-lg {
+  color: var(--grays-white, #ffffff);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icon-huge-arrow-right-forward {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.chevron-right2 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.button3 {
+  border-style: solid;
+  border-color: var(--primary, #0e3121);
+  border-width: 1px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 135px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+}
+.text-lg2 {
+  color: var(--primary, #0e3121);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icon-huge-arrow-right-forward2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.chevron-right3 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.icon-huge-arrow-right-forward3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.informasi-detail{
+  border: none;
+}
+.btn-booking-color{
+  border: 2px solid #0E3121;
+  border-radius: 0px;
+  /* cursor: pointer; Menambahkan kursor pointer */
+  transition: background-color 0.3s ease; /* Animasi transisi */
+  display: inline-block;
+}
+.btn-booking-color:active,
+.btn-booking-color:focus{
+  background-color: #0E3121;
+  color: white;
+  outline: none;
+}
+/* mengubah warna Lihat semua Destinasi dan icon nya menjadi putih */
+
+.icon-hover:hover .icon {
+  filter: invert(1); /* Inverts the black to white */
+}

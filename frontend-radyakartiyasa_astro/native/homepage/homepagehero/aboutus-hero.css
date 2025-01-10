@@ -1,0 +1,122 @@
+.frame-22,
+.frame-22 * {
+  box-sizing: border-box;
+}
+.frame-22 {
+  background: var(--primary, #0e3121);
+  padding: 65px 110px 65px 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 272px;
+  position: relative;
+}
+.frame-19 {
+  display: flex;
+  flex-direction: row;
+  gap: 87px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-36 {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 491px;
+  position: relative;
+}
+.frame-46 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.badge {
+  background: var(--semantic-success-50, #f0fdf4);
+  border-radius: 6px;
+  border-style: solid;
+  border-color: var(--semantic-success-200, #bbf7d0);
+  border-width: 1px;
+  padding: 2px 8px 2px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.badge2 {
+  color: var(--semantic-success-700, #15803d);
+  text-align: left;
+  font-family: var(
+    --caption-small-medium-font-family,
+    "Inter-Medium",
+    sans-serif
+  );
+  font-size: var(--caption-small-medium-font-size, 12px);
+  line-height: var(--caption-small-medium-line-height, 18px);
+  font-weight: var(--caption-small-medium-font-weight, 500);
+  position: relative;
+}
+.meet-our-team-of-exp {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AnekBangla-Medium", sans-serif;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 500;
+  position: relative;
+  align-self: stretch;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.text {
+  color: var(--gold, #d6a84d);
+  text-align: left;
+  font-family: var(--body-small-medium-font-family, "Inter-Medium", sans-serif);
+  font-size: var(--body-small-medium-font-size, 16px);
+  line-height: var(--body-small-medium-line-height, 24px);
+  font-weight: var(--body-small-medium-font-weight, 500);
+  position: relative;
+}
+.chevron-right {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.paragraph {
+  color: #ffffff;
+  text-align: justified;
+  font-family: "AnekBangla-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  width: 635px;
+}
+

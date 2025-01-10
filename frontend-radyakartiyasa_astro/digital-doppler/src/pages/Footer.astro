@@ -3,7 +3,16 @@ import "../styles/footer.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 ---
 
-<footer class="bg-custom-color text-white py-4">
+<!-- NOTE  ini akan menjadi acuan untuk memastikan footer tetap di bawah -->
+  <div class="container-fluid d-grid min-vh-100 p-0 m-0" style="grid-template-rows: 1fr auto">
+    <div class="content">
+      <!-- konten di atas -->
+    </div>
+
+
+  <!-- Footer -->
+  <!-- NOTE perhatikan mt-auto dan w-100 (kalau ingin ada perubahan) -->
+<footer class="bg-custom-color text-white py-4 mt-auto">
   <div class="container">
     <div class="row">
       <!-- Logo and Description -->

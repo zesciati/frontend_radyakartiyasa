@@ -1,0 +1,218 @@
+.section-contact,
+.section-contact * {
+  box-sizing: border-box;
+}
+.section-contact {
+  height: 532px;
+  position: relative;
+}
+.section {
+  background: #032415;
+  border-radius: 4px 4px 0px 0px;
+  height: 327.19px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  height: 30px;
+  position: absolute;
+  right: 1205.2px;
+  left: 25px;
+  top: 20px;
+  
+}
+.contact-us {
+  color: #dee0ff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 9.53125px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: absolute;
+  left: 9px;
+  top: 7px;
+  width: 72px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lebih-dekat-dengan-kami {
+  color: #dee0ff;
+  text-align: left;
+  font-family: "TenorSans-Regular", sans-serif;
+  font-size: 44px;
+  line-height: 50px;
+  font-weight: 400;
+  position: absolute;
+  left: 25px;
+  top: 236px;
+  width: 617px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.section2 {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 247, 231, 1) 0%,
+    rgba(255, 247, 231, 1) 100%
+  );
+  border-radius: 0px 0px 4px 4px;
+  height: 205px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 327px;
+}
+.background-shadow {
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 34px 32px 34px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 457px;
+  position: absolute;
+  right: 56px;
+  left: 720px;
+  top: 50%;
+  translate: 0 -50%;
+}
+.group-11 {
+  flex-shrink: 0;
+  width: 480px;
+  height: 380px;
+  position: static;
+}
+.kami-dengan-senang-hati-akan-menjawab-pertanyaan-anda-dan-membantu-anda-menentukan-layanan-mana-yang-paling-sesuai-dengan-kebutuhan-anda {
+  color: #242627;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 18.90625px;
+  line-height: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 32px;
+  top: 34px;
+  width: 480px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hubungi-kami-di-0274-373721 {
+  color: #0a0d31;
+  text-align: left;
+  font-family: "AnekBangla-SemiBold", sans-serif;
+  font-size: 18.4375px;
+  line-height: 26px;
+  font-weight: 600;
+  position: absolute;
+  left: 35px;
+  top: 169px;
+  width: 318px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.heading-5-your-benefits {
+  color: #0a0d31;
+  text-align: left;
+  font-family: "AnekBangla-SemiBold", sans-serif;
+  font-size: 18.4375px;
+  line-height: 26px;
+  font-weight: 600;
+  position: absolute;
+  left: 32px;
+  top: 225px;
+  width: 124.93px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.heading-5-your-benefits2 {
+  color: #0a0d31;
+  text-align: left;
+  font-family: "AnekBangla-SemiBold", sans-serif;
+  font-size: 18.4375px;
+  line-height: 26px;
+  font-weight: 600;
+  position: absolute;
+  left: 32px;
+  top: 351px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.heading-5-your-benefits3 {
+  color: #0a0d31;
+  text-align: left;
+  font-family: "AnekBangla-SemiBold", sans-serif;
+  font-size: 18.4375px;
+  line-height: 26px;
+  font-weight: 600;
+  position: absolute;
+  left: 207px;
+  top: 351px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.jl-rotowijayan-blok-no-1-panembahan-kecamatan-kraton-kota-yogyakarta-daerah-istimewa-yogyakarta {
+  color: #242627;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 13.34375px;
+  line-height: 19.6px;
+  font-weight: 400;
+  position: absolute;
+  left: 32px;
+  top: 263px;
+  width: 279px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.kratonjogja-id {
+  color: #242627;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 13.34375px;
+  line-height: 19.6px;
+  font-weight: 400;
+  position: absolute;
+  left: 32px;
+  top: 389px;
+  width: 279px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tuesday-saturday-8-30-am-2-30-pm {
+  color: #242627;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 13.34375px;
+  line-height: 19.6px;
+  font-weight: 400;
+  position: absolute;
+  left: 207px;
+  top: 391px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

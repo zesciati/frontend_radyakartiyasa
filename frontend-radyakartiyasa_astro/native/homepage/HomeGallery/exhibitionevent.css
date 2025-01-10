@@ -1,0 +1,265 @@
+/* .frame-55,
+.frame-55 * {
+  box-sizing: border-box;
+}
+.frame-55 {
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+.frame-41 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+  /*  */
+/* .badge {
+  background: var(--semantic-success-50, #f0fdf4);
+  border-radius: 6px;
+  border-style: solid;
+  border-color: var(--semantic-success-200, #bbf7d0);
+  border-width: 1px;
+  padding: 2px 8px;
+  
+  
+  width: 9%;
+  gap: 6px;
+  align-items: center;
+  justify-content: start;
+  flex-shrink: 0;
+  position: relative;
+  color: #15803d;
+  font-family: 'TenorSans-Regular', sans-serif;
+  
+} */
+/* .badge2 {
+  
+  
+} */
+/*  
+.frame-23 {
+  display: flex;
+  flex-direction: row;
+  gap: 329px;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-39 {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-6 {
+  flex-shrink: 0;
+  width: 50px;
+  height: 45.95px;
+  position: relative;
+  overflow: visible;
+}
+.title {
+  color: var(--primary, #0e3121);
+  text-align: left;
+  font-family: "TenorSans-Regular", sans-serif;
+  font-size: 44px;
+  line-height: 54px;
+  letter-spacing: -1.46px;
+  font-weight: 400;
+  position: relative;
+}
+.link {
+  flex-shrink: 0;
+  width: auto;
+  height: 29px;
+  position: relative;
+}
+.group-3-copy-2 {
+  padding: 1px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.view-all-benefits {
+  color: var(--grays-black, #000000);
+  text-align: left;
+  font-family: var(--small-1-regular-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--small-1-regular-font-size, 18px);
+  line-height: var(--small-1-regular-line-height, 28px);
+  letter-spacing: var(--small-1-regular-letter-spacing, -0.83px);
+  font-weight: var(--small-1-regular-font-weight, 400);
+  position: relative;
+}
+.group {
+  flex-shrink: 0;
+  width: 29.5px;
+  height: 14px;
+  position: relative;
+  overflow: visible;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 100%;
+  position: relative;
+}
+.image {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 256px;
+  position: relative;
+  object-fit: cover;
+}
+.frame-6 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.headline-paragraph-and-badge {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.headline-and-badge {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.badge-group {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.subtitle {
+  color: var(--body-font, #4b5563);
+  text-align: left;
+  font-family: var(
+    --caption-large-regular-font-family,
+    "Inter-Regular",
+    sans-serif
+  );
+  font-size: var(--caption-large-regular-font-size, 14px);
+  line-height: var(--caption-large-regular-line-height, 20px);
+  font-weight: var(--caption-large-regular-font-weight, 400);
+  position: relative;
+}
+.title2 {
+  color: var(--body-font, #4b5563);
+  text-align: left;
+  font-family: "TenorSans-Regular", sans-serif;
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.text {
+  color: var(--gold, #d6a84d);
+  text-align: left;
+  font-family: var(--body-small-medium-font-family, "Inter-Medium", sans-serif);
+  font-size: var(--body-small-medium-font-size, 16px);
+  line-height: var(--body-small-medium-line-height, 24px);
+  font-weight: var(--body-small-medium-font-weight, 500);
+  position: relative;
+}
+.chevron-right {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.chevron-right2 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.title3 {
+  color: var(--body-font, #4b5563);
+  text-align: left;
+  font-family: "TenorSans-Regular", sans-serif;
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.chevron-right3 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+} */
+
+.text{
+  color: #d6a84d;
+}
+.title2{
+  font-family:  'TenorSans-Regular', sans-serif;
+  font-size: 1.4rem;
+}
+.exhibition-event{
+  background-color: #BBF7D0; 
+  color:#15803D;
+  font-family: 'TenorSans-Regular', sans-serif;
+}

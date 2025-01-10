@@ -5,10 +5,12 @@
 .section-contact {
   height: 532px;
   position: relative;
+  width: 90%;
+  left: 5%;
 }
 .section {
   background: #032415;
-  border-radius: 4px 4px 0px 0px;
+  /* border-radius: 4px 4px 0px 0px; */
   height: 327.19px;
   position: absolute;
   right: 0px;
@@ -65,7 +67,7 @@
     rgba(255, 247, 231, 1) 0%,
     rgba(255, 247, 231, 1) 100%
   );
-  border-radius: 0px 0px 4px 4px;
+  /* border-radius: 0px 0px 4px 4px; */
   height: 205px;
   position: absolute;
   right: 0px;
@@ -84,9 +86,10 @@
   height: 457px;
   position: absolute;
   right: 56px;
-  left: 720px;
+  left: 620px;
   top: 50%;
   translate: 0 -50%;
+  
 }
 .group-11 {
   flex-shrink: 0;

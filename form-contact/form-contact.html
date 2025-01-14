@@ -9,7 +9,7 @@
     <title>Form Contact us</title>
     <style>
         .form-container {
-            max-width: 400px; /* Set a smaller width for the form */
+            max-width: 400px; 
             background-color: #ffffff; /* White background for the form */
             padding: 20px; /* Add padding inside the form */
             border-radius: 8px; /* Add rounded corners */
@@ -24,11 +24,12 @@
             margin-bottom: 20px;
         }
         .btn {
-            color: #062e27;
+            background-color: #062e27;
             border: none;
-            padding: 12px 20px;
+            padding: 7px 18px;
             border-radius: 5px;
             cursor: pointer;
+            color: #ffffff;
         }
         .btn:hover {
             background-color: gold;
@@ -40,31 +41,33 @@
         <div class="form-container">
             <form>
                 <div class="form-group">
-                    <label for="firstName">Nama Anda</label>
+                    <label for="firstName" style="margin-bottom: 13px;">Nama Anda</label>
                     <input type="text" class="form-control" id="firstName">
                 </div>
                 <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="text" class="form-control" id="email">
+                    <label for="email" style="margin-bottom: 13px;">Email</label>
+                    <input type="email" class="form-control" id="email">
                 </div>
                 <div class="form-group">
-                    <label for="nomorHp"> No. Handphone</label>
+                    <label for="nomorHp" style="margin-bottom: 13px;">No. Handphone</label>
                     <input type="text" class="form-control" id="nomorHp">
                 </div>
                 <div class="form-group">
-                    <label for="dropdownBantu">Apa yang bisa kami bantu?</label>
+                    <label for="dropdownBantu" style="margin-bottom: 13px;">Apa yang bisa kami bantu?</label>
                     <select class="form-select" id="dropdown" name="dropdown">
                         <option class="form-control" selected >Select Option</option>
-                        <option value="1">Opsi 1</option>
-                        <option value="2">Opsi 2</option>
-                        <option value="3">Opsi 3</option>
+                        <option value="1">Kendala</option>
+                        <option value="2">Kritikan</option>
+                        <option value="3">Masukan</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="pesan">Pesan</label>
-                    <input type="text" class="form-control" id="pesan">
+                    <label for="pesan" style="margin-bottom: 13px;">Pesan</label>
+                    <textarea type="text" class="form-control" id="pesan" row="5"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary w-100">Submit</button>
+                <div class="form-group">
+                    <button type="submit" class="btn">Submit</button>
+                </div>
             </form>
         </div>
     </div>

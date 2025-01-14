@@ -16,11 +16,13 @@ import Footer from "../components/Footer.astro";
   <body>
 
     <Navbar />
-    <h1>{pageTitle}</h1>
+
     <slot />
     <Footer />
-    <script>
-      
-    </script>
+    <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"
+>
+  import "bootstrap/dist/js/bootstrap.bundle.min.js";
+</script>
   </body>
 </html>

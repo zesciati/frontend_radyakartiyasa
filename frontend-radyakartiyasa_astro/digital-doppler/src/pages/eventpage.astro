@@ -1,0 +1,23 @@
+---
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import Eventpagelayout from "../layouts/eventpagelayout.astro";
+const pageTitle = "Event Page Layout 🚀";
+import EventHero from "../components/event/event-hero.astro";
+import EventDescription from "../components/event/event-description.astro";
+import EventInformation_sidebar from "../components/event/event-information_sidebar.astro";
+import EventAccesibilities from "../components/event/event-accessibilities.astro";
+import EventIsiacara from "../components/event/event-isi-acara.astro";
+---
+
+
+
+    <Eventpagelayout pageTitle={pageTitle}>
+      <EventHero />
+      <EventDescription />
+      <EventInformation_sidebar />
+      <EventAccesibilities />
+      <EventIsiacara />
+    </Eventpagelayout>
+    
+

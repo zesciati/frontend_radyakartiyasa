@@ -1,0 +1,56 @@
+.promo-section {
+  background: url('./img/image-promo.png') no-repeat center center/cover;
+  background-color: #062e27; /* fallback for overlay */
+  color: #fff;
+  padding: 40px;
+  position: relative;
+}
+.promo-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(6, 46, 39, 0.85); /* dark overlay */
+  z-index: 1;
+}
+.promo-content {
+  position: relative;
+  z-index: 2;
+}
+.promo-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e3a539;
+  -webkit-text-stroke: 1px #000;
+}
+.promo-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.promo-btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+.promo-btn:hover{
+  background-color: #e3a539;
+  border-color: #e3a539;
+  color: #000;
+}
+.promo-btn span {
+  margin-left: 10px;
+  transition: color 0.3s ease;
+}
+.bi-arrow-right{
+    color: #e3a539;
+}
+.promo-btn:hover span {
+  color: #000; /* Ikon berubah warna bersamaan dengan teks */
+}

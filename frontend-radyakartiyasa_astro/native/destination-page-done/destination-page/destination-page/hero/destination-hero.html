@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <title>Hero - Destination Page</title>
+<style>
+    .hero-cards-section {
+      position: relative;
+      background: linear-gradient(
+          180deg, rgba(0, 0, 0, 0.61) 0.076%,
+          rgba(1, 1, 27, 0.12) 41.892%,
+          #2D5D2B 100%
+        ),
+        url('./img/museumkedhaton.png') no-repeat center center / cover;
+      color: white;
+      text-align:left;
+      padding: 150px 0;
+      padding: 150px 0;
+      
+    }
+    .hero-cards-section h1 {
+      font-size: 2.5rem;
+      font-weight: medium;
+      margin-bottom: 40px;
+      margin-left: 60px;
+    }
+    .card {
+      border: none;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+      filter: invert(1);
+    }
+    .carousel-control-prev, .carousel-control-next {
+      width: auto; 
+      position: absolute;
+      top: 50%; 
+      transform: translateY(-50%);
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.5);
+      width: 40px;
+      height: 40px;
+    }
+    .card img {
+      height: 180px; 
+      width: 100%; 
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .carousel-inner {
+      position: relative;
+      padding: 0 60px; 
+    }
+    .cards-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+    .card-text {
+      margin-top: 10px;
+      font-size: 15px;
+      color: white;
+    }
+    .rectangle-9 {
+      background: #2d5d2b;
+      width: 85px;
+      height: 80px;
+      position: absolute;
+      top: 670px;
+      left: 114px;
+    }
+</style>
+</head>
+<body>
+  <section class="hero-cards-section">
+    <div class="container mt-4">
+      <h1>Kagungan Dalem </br> Museum Kedhaton</h1>
+      <div class="rectangle-9"></div>
+      <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <div class="card bg-transparent">
+                  <img src="./img/keretaraja.png" class="card-img-top" alt="Event Activity">
+                  <p class="card-text text-center"><strong>Kegiatan Acara dan Pameran</strong></p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card bg-transparent">
+                  <img src="./img/pajangankuda.png" class="card-img-top" alt="Event Activity">
+                  <p class="card-text text-center"><strong>Kegiatan Acara dan Pameran</strong></p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card bg-transparent">
+                  <img src="./img/ruangraja.png" class="card-img-top" alt="Event Activity">
+                  <p class="card-text text-center"><strong>Kegiatan Acara dan Pameran</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <div class="card bg-transparent">
+                  <img src="./img/ruangraja.png" class="card-img-top" alt="Event Activity">
+                  <p class="card-text text-center"><strong>Kegiatan Lain</strong></p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card bg-transparent">
+                  <img src="./img/pajangankuda.png" class="card-img-top" alt="Event Activity">
+                  <p class="card-text text-center"><strong>Kegiatan Lain</strong></p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card bg-transparent">
+                  <img src="./img/keretaraja.png" class="card-img-top" alt="Event Activity">
+                  <p class="card-text text-center"><strong>Kegiatan Lain</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <button class="carousel-control-prev" style="left: 0px;" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" style="right: 0px;" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

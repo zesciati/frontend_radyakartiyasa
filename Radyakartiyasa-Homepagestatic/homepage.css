@@ -894,6 +894,8 @@
   top: 2945px;
   object-fit: cover;
 }
+
+/* DESTINATION INDEX & PROMO KUNJUNGAN SECTION */
 .frame-61 {
   display: flex;
   flex-direction: column;
@@ -1147,6 +1149,8 @@
   position: relative;
   overflow: visible;
 }
+
+/* PROMO KUNJUNGAN SECTION */
 .cta-promo {
   align-self: stretch;
   flex-shrink: 0;

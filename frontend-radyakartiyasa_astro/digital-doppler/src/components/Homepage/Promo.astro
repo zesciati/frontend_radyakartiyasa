@@ -1,28 +1,26 @@
 ---
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../../styles/Homepage/Promo.css";
+import 'bootstrap-icons/font/bootstrap-icons.css';
 ---
-<!-- !ukuran mobile masih bermasalah dengan button informasi selengkapnya diluar background overlay yang ada -->
 
-<!-- *tidak ada file eksternal css* -->
-
-<div class="cta-promo position-relative">
-  <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(14, 49, 33, 0.7);"></div>
-  <img class="image w-100 h-100" src="../img/image-promo.png" alt="Promo Image" />
-  <div class="frame-56 d-flex flex-column flex-md-row gap-4 align-items-center justify-content-between position-absolute top-50 start-50 translate-middle p-3 w-100">
-    <div class="container text-center text-md-start">
-      <h1 class="heading" style="color: #d6a84d; font-family: TenorSans-Regular, sans-serif">Promo Kunjungan Museum</h1>
-      <p class="nikmati-acara-eksklusif-akses-tak-terbatas-ke-pameran-dan-ruang-anggota-ditambah-diskon-di-toko-toko-museum-kafe-dan-restoran" style="font-family: AnekBangla-Regular, sans-serif; color: #ffffff  ;">
-        Nikmati acara eksklusif, akses tak terbatas ke pameran dan Ruang Anggota, ditambah diskon di toko-toko Museum, kafe, dan restoran.
-      </p>
-    </div>
-    <div class="actions text-center w-25">
-      <a href="#" class="button btn btn-outline-light d-flex align-items-center justify-content-center rounded-0">
-        <span class="text-lg">Informasi selengkapnya</span>
-        <img class="icon-huge-arrow-right-forward ms-2" src="../img/icon/arrow-right-gold.svg" alt="Arrow Icon" />
-      </a>
+<section class="promo-section d-flex align-items-center">
+  <div class="container promo-content">
+    <div class="row align-items-center">
+      <div class="col-lg-8">
+        <h1 class="promo-title">Promo Kunjungan Museum</h1>
+        <p class="promo-text">
+          Nikmati acara eksklusif, akses tak terbatas ke pameran dan Ruang Anggota,</br> ditambah diskon di toko-toko Museum, kafe, dan restoran.
+        </p>
+      </div>
+      <div class="col-lg-4 text-lg-end text-center">
+        <a href="#" class="promo-btn">
+          Informasi selengkapnya <span class="bi bi-arrow-right"></span>
+        </a>
+      </div>
     </div>
   </div>
-</div>
+</section>
 
 <script
   src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"

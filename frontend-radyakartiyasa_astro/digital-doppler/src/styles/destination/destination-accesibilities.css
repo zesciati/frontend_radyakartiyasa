@@ -1,0 +1,20 @@
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+.features-section {
+  background-color: #FAEECD;
+  padding: 40px 20px;
+  margin-top: 200px;
+}
+.feature-box {
+  text-align: center;
+  padding: 15px;
+}
+.feature-box i {
+  font-size: 2rem;
+  color: #8B5F08;
+}
+.feature-box h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 10px;
+}

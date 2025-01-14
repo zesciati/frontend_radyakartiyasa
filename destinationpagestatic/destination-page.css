@@ -1066,7 +1066,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 1440px;
+  width: 100%;
   position: relative;
   overflow: hidden;
 }

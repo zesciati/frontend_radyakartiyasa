@@ -1,0 +1,56 @@
+.hero-cards-section {
+    position: relative;
+    background: linear-gradient(
+        180deg, rgba(0, 0, 0, 0.61) 0.076%,
+        rgba(1, 1, 27, 0.12) 41.892%,
+        rgba(14, 49, 33, 1) 100%
+      ),
+      url('../img/image0.png') no-repeat center center / cover;
+    color: white;
+    text-align:left;
+    padding: 150px 0;
+    }
+    .hero-cards-section h1 {
+      font-size: 2.5rem;
+      font-weight: medium;
+      margin-bottom: 40px;
+      margin-left: 60px;
+    }
+    .card {
+      border: none;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+      filter: invert(1);
+    }
+    .carousel-control-prev, .carousel-control-next {
+      width: auto; 
+      position: absolute;
+      top: 50%; 
+      transform: translateY(-50%);
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.5);
+      width: 40px;
+      height: 40px;
+    }
+    .card img {
+      height: 180px; 
+      width: 100%; 
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .carousel-inner {
+      position: relative;
+      padding: 0 60px; 
+    }
+    .cards-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+    .card-text {
+      margin-top: 10px;
+      font-size: 15px;
+      color: white;
+    }

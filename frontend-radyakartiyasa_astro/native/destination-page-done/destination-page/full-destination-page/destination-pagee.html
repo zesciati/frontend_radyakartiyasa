@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <title>Destination Page</title>
+  <style>
+    /* .hero {
+      position: relative;
+      background: linear-gradient(
+          180deg,rgba(0, 0, 0, 0.61) 0.07648601313121617%,
+          rgba(1, 1, 27, 0.12) 41.892483830451965%,
+          rgba(14, 49, 33, 1) 100%),
+          url('./img/museumkedhaton.png') no-repeat center center / cover;
+      height: 705px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: left;
+      font-size: 35px;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: medium;
+      z-index: 2;
+      margin-top: -60px;
+    }
+    .card {
+      border: none;
+    }
+    .cards-section {
+      margin-top: -300px;
+      z-index: 2;
+    }
+    .card img {
+      height: 180px;
+      width: 100%;
+      object-fit: cover;
+    } */
+    .hero-cards-section {
+      position: relative;
+      background: linear-gradient(
+          180deg, rgba(0, 0, 0, 0.61) 0.076%,
+          rgba(1, 1, 27, 0.12) 41.892%,
+          #2D5D2B 100%
+        ),
+        url('./img/museumkedhaton.png') no-repeat center center / cover;
+      color: white;
+      text-align:left;
+      padding: 150px 0;
+      padding: 150px 0;
+      
+    }
+    .hero-cards-section h1 {
+      font-size: 2.5rem;
+      font-weight: medium;
+      margin-bottom: 40px;
+      margin-left: 60px;
+    }
+    .card {
+      border: none;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+      filter: invert(1);
+    }
+    .carousel-control-prev, .carousel-control-next {
+      width: auto; 
+      position: absolute;
+      top: 50%; 
+      transform: translateY(-50%);
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.5);
+      width: 40px;
+      height: 40px;
+    }
+    .card img {
+      height: 180px; 
+      width: 100%; 
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .carousel-inner {
+      position: relative;
+      padding: 0 60px; 
+    }
+    .cards-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+    .card-text {
+      margin-top: 10px;
+      font-size: 15px;
+      color: white;
+    }
+    .rectangle-9 {
+      background: #2d5d2b;
+      width: 85px;
+      height: 80px;
+      position: absolute;
+      top: 670px;
+      left: 114px;
+    }
+    .event-description {
+      margin-top: 30px;
+    }
+    .event-description h2 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-top: 90px;
+    }
+    .event-description p {
+      font-size: 0.95rem;
+      line-height: 1.7;
+      margin-top: 20px;
+    }
+    .event-info li {
+      margin-bottom: 20px;
+    }
+    .event-info i {
+      font-size: 1.2rem;
+      color: #000000;
+    }
+    .btn-view-museum {
+      background: var(--primary, #0e3121);
+      border-style: solid;
+      border-color: var(--primary, #0e3121);
+      border-width: 1px;
+      padding: 10px 40px;
+      color: white;
+      align-items: center;
+      text-decoration: none;
+      font-size: 14px;
+      display: inline-flex;
+      gap: 10px;
+    }
+    .btn-booking {
+      background: var(--primary, #0e3121);
+      border-style: solid;
+      border-color: var(--primary, #0e3121);
+      border-width: 1px;
+      padding: 10px 70px;
+      color: white;
+      align-items: center;
+      text-decoration: none;
+      font-size: 14px;
+      display: inline-flex;
+      gap: 10px;
+    }
+    .features-section {
+      background-color: #FAEECD;
+      padding: 40px 20px;
+      margin-top: 200px;
+    }
+    .feature-box {
+      text-align: center;
+      padding: 15px;
+    }
+    .feature-box i {
+      font-size: 2rem;
+      color: #8B5F08;
+    }
+    .feature-box h5 {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .nav-item button {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 0;
+    }
+    .nav-item button:hover {
+      background-color: #D6A84D; /* Warna gold */
+      color: white; /* Warna teks saat hover */
+    }
+  </style>
+</head>
+<body>
+  <!-- HERO SECTION -->
+  <!-- <section class="hero">
+    <div class="container text-white">
+      <h1>Kereta Kencana Kagungan Dalem Museum Waharanatha</h1>
+    </div>
+  </section> -->
+
+  <section class="hero-cards-section">
+    <div class="container mt-4">
+      <h1>Kagungan Dalem </br> Museum Kedhaton</h1>
+      <div class="rectangle-9"></div>
+      <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <div class="card bg-transparent">
+                  <img src="./img/keretaraja.png" class="card-img-top" alt="Event Activity">
+                  <p class="card-text text-center"><strong>Kegiatan Acara dan Pameran</strong></p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card bg-transparent">
+                  <img src="./img/pajangankuda.png" class="card-img-top" alt="Event Activity">
+                  <p class="card-text text-center"><strong>Kegiatan Acara dan Pameran</strong></p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card bg-transparent">
+                  <img src="./img/ruangraja.png" class="card-img-top" alt="Event Activity">
+                  <p class="card-text text-center"><strong>Kegiatan Acara dan Pameran</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <div class="card bg-transparent">
+                  <img src="./img/ruangraja.png" class="card-img-top" alt="Event Activity">
+                  <p class="card-text text-center"><strong>Kegiatan Lain</strong></p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card bg-transparent">
+                  <img src="./img/pajangankuda.png" class="card-img-top" alt="Event Activity">
+                  <p class="card-text text-center"><strong>Kegiatan Lain</strong></p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card bg-transparent">
+                  <img src="./img/keretaraja.png" class="card-img-top" alt="Event Activity">
+                  <p class="card-text text-center"><strong>Kegiatan Lain</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <button class="carousel-control-prev" style="left: 0px;" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" style="right: 0px;" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 FOTO SECTION -->
+  <!-- <section class="cards-section container">
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <div class="card bg-transparent" style="color: white; font-size: 15px;">
+          <img src="./img/keretaraja.png" class="card-img-top"  style="border: 0px;" alt="Event Activity">
+          <div class="text-align">
+            <p class="card-text text-center"><strong>Kereta Kencana Kagungan Dalem </br>Museum Waharanatha</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-transparent" style="color: white; font-size: 15px;">
+          <img src="./img/pajangankuda.png" class="card-img-top" alt="Event Activity"> 
+          <div class="text-align">
+            <p class="card-text text-center"><strong>Kereta Kencana Kagungan Dalem </br>Museum Waharanatha</strong></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-transparent" style="color: white; font-size: 15px;">
+          <img src="./img/ruangraja.png" class="card-img-top" alt="Event Activity"> 
+          <div class="text-align">
+            <p class="card-text text-center"><strong>Kereta Kencana Kagungan Dalem </br>Museum Waharanatha</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>-->
+
+    <!-- KOTAK KECIL -->
+    <!-- <div class="row mt-5 mb-7 d-flex justify-content" style="position: absolute;">
+      <div class="square" style="width: 60px; height: 80px; background-color: #0e3121;"></div>
+    </div>
+  </section> -->
+
+  <!-- EVENT DESCRIPTION SECTION -->
+  <section class="event-description container mt-5">
+    <div class="row">
+      <div class="col-md-7 event-text" style="color: #2D5D2B;">
+        <h2>Sejarah Singkat</br>
+          Kagungan Dalem Museum Kedhaton Keraton Yogyakarta</h2>
+        <p>
+          Kagungan Dalem Museum Kedhaton Keraton Yogyakarta adalah museum yang
+          berlokasi di dalam kompleks Keraton Yogyakarta. Museum ini menyimpan dan
+          memamerkan berbagai koleksi berharga milik Keraton, seperti pusaka, barang
+          antik, dan artefak yang memiliki nilai sejarah dan budaya tinggi.
+          Koleksi-koleksi tersebut mencerminkan perjalanan sejarah Keraton
+          Yogyakarta serta kehidupan dan tradisi keluarga Sultan. Museum ini menjadi
+          salah satu destinasi wisata budaya penting bagi pengunjung yang ingin
+          mempelajari sejarah dan warisan budaya Keraton Yogyakarta.
+        </p>
+        <p>
+          Kami menantikan kedatangan Anda.
+        </p>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-4 event-info" style="margin-top: 90px; color: #0e3121;">
+        <h5>Informasi Acara dan Pameran</h5>
+        <hr stle="border: 1px solid #ccc; margin: 10px 0 20px;">
+        <ul class="list-unstyled ">
+          <li><i class="bi bi-clock"></i> Opening times<br>03 January 2023 - 05 January 2023<br>Pukul 08.00 - 15.00</li>
+          <hr stle="border: 1px solid #ccc; margin: 10px 0 20px;">
+          <li><i class="bi bi-ticket-perforated"></i> Harga Tiket<br>
+            <strong>Domestik</strong><br> Anak-anak: Rp 10.000, Dewasa: Rp 15.000 <br>
+            <strong>Mancanegara</strong> Anak-anak: Rp 20.000, Dewasa: Rp 25.000
+          </li>
+          <hr stle="border: 1px solid #ccc; margin: 10px 0 20px;">
+          <li><i class="bi bi-geo-alt"></i> Lokasi Museum<br>
+            Keraton Ngayogyakarta Hadiningrat<br>
+            Jl. Rotowijayan Blok No. 1, Panembahan, Kecamatan Kraton, Kota Yogyakarta
+          </li>
+        </ul>
+        <p>
+          <div class="btn-view-museum">
+            <i class="bi bi-geo-alt-fill" style="color: gold;"></i>
+            View museum map location <a href="#" class="bi bi-arrow-right" style="color: gold;"></a>
+          </div>
+        </p>
+        <div class="btn-booking">
+          <i class="bi bi-ticket" style="color: gold;"></i>
+          Booking sekarang <a href="#" class="bi bi-arrow-right" style="color: gold;"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section class="features-section" >
+    <div class="container">
+      <div class="row" style="color: #2D5D2B;">
+        <div class="col-md-3 feature-box text-start">
+          <div class="text-center mb-2">
+              <i class="bi bi-circle-fill" style="color: #D6A84D;"></i>
+          </div>
+          <h5 class="text-start">Kemudahan Akses Mobilitas</h5>
+          <p class="text-start">Kemudahan akses mobilitas di Museum Kraton Yogyakarta.</p>
+        </div>
+          <div class="col-md-3 feature-box text-start">
+            <div class="text-center mb-2">
+                <i class="bi bi-circle-fill" style="color: #D6A84D;"></i>
+            </div>
+            <h5 class="text-start">Ramah Autis</h5>
+            <p class="text-start">Ramah autis di Museum Kraton Yogyakarta.</p>
+        </div>
+        <div class="col-md-3 feature-box text-start">
+            <div class="text-center mb-2">
+                <i class="bi bi-circle-fill" style="color: #D6A84D;"></i>
+            </div>
+            <h5 class="text-start">Ramah Kunjungan Tunarungu</h5>
+            <p class="text-start">Ramah kunjungan tunarungu dengan teks yang informatif.</p>
+        </div>
+        <div class="col-md-3 feature-box text-start">
+            <div class="text-center mb-2">
+                <i class="bi bi-circle-fill" style="color: #D6A84D;"></i>
+            </div>
+            <h5 class="text-start">Ramah Kunjungan Tunanetra</h5>
+            <p class="text-start">Ramah kunjungan tunanetra dengan bantuan audio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KETENTUAN PENGUNJUNG SECTION -->
+  <div class="frame-34 container-fluid" style="background-color: #0e3121;">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 d-flex align-items-center">
+        <div class="container frame-45">
+          <div class="row">
+            <div class="text-image-container">
+              <div class="frame-40" style="display: flex; align-items: center; color: white; font-size: 30px; gap: 5px;">
+                <img class="group-6" src="./img/icon/Group 6.svg" alt="Icon"/>Ketentuan Pengunjung
+              </div>
+            </div>
+          </div>
+          <p></p>
+          <div class="row frame-43">
+            <div class="col-md-12">
+              <ul class="nav nav-tabs horizontal-tabs mb-2" id="myTab" role="tablist" style="border-color: #D6A84D;">
+                <li class="nav-item tab-button" role="presentation" style="border-color: #D6A84D;">
+                  <button style="color: #2D5D2B;"
+                    class="nav-link active text2 rounded-0"
+                    id="home-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#home-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="home-tab-pane"
+                    aria-selected="true">Do's</button>
+                </li>
+                <li class="nav-item tab-button2" role="presentation"  style="border-color: #D6A84D;">
+                  <button style="color: #2D5D2B;"
+                    class="nav-link text3 rounded-0"
+                    id="profile-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#profile-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="profile-tab-pane"
+                    aria-selected="false">Dont's</button>
+                </li>
+              </ul>
+              <div class="tab-content frame-42" id="myTabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="home-tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="home-tab"
+                  tabindex="0">
+                  <div class="check-list-item mb-2">
+                    <div class="check-icons" style="color: white; font-size: 18px;">
+                      <i class="bi bi-check"></i> Datang 1 jam lebih awal
+                    </div>
+                  </div>
+                  <div class="check-list-item mb-2">
+                    <div class="check-icons" style="color: white; font-size: 18px;">
+                      <i class="bi bi-check"></i> Mengenakan pakaian yang sopan, nyaman, dan berlengan
+                    </div>
+                  </div>
+                  <div class="check-list-item mb-2">
+                    <div class="check-icons" style="color: white; font-size: 18px;">
+                      <i class="bi bi-check"></i> Diperbolehkan mendokumentasikan koleksi sesuai arahan petugas
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="profile-tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="profile-tab"
+                  tabindex="0">
+                  <div class="check-list-item mb-2">
+                    <div class="check-icons" style="color: white; font-size: 18px;">
+                      <i class="bi bi-check"></i> Datang terlambat
+                    </div>
+                  </div>
+                  <div class="check-list-item mb-2">
+                    <div class="check-icons" style="color: white; font-size: 18px;">
+                      <i class="bi bi-check"></i> Mengenakan pakaian yang tidak sopan
+                    </div>
+                  </div>
+                  <div class="check-list-item mb-2">
+                    <div class="check-icons" style="color: white; font-size: 18px;">
+                      <i class="bi bi-check"></i> Mendokumentasikan koleksi tanpa arahan petugas
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 d-flex align-items-center justify-content-center">
+        <img class="image3 img-fluid w-100" src="./img/bangunandepankeraton.png" alt="Bangunan Keraton"/>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

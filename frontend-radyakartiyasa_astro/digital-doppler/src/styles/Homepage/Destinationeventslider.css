@@ -1,0 +1,24 @@
+.informasi-detail{
+  border: none;
+}
+.btn-booking-color{
+  border: 2px solid #0E3121;
+  border-radius: 0px;
+  /* cursor: pointer; Menambahkan kursor pointer */
+  transition: background-color 0.3s ease; /* Animasi transisi */
+  display: inline-block;
+}
+.btn-booking-color:active,
+.btn-booking-color:focus{
+  background-color: #0E3121;
+  color: white;
+  outline: none;
+}
+/* mengubah warna Lihat semua Destinasi dan icon nya menjadi putih */
+
+.icon-hover:hover .icon {
+  filter: invert(1); /* Inverts the black to white */
+}
+.gelar{
+  border: 2px solid #BBF7D0;
+}

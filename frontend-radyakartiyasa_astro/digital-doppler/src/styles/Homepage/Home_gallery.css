@@ -1,12 +1,60 @@
-.text{
-  color: #d6a84d;
+.bungkus {
+  background-image: url('./img/teras-background.png');
+  background-size: cover;
+  background-repeat: repeat;
 }
-.title2{
-  font-family:  'TenorSans-Regular', sans-serif;
-  font-size: 1.4rem;
+.gallery-header {
+  position: absolute; 
+  top: 20px; 
+  left: 20px; 
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
 }
-.exhibition-event{
-  background-color: #BBF7D0; 
-  color:#15803D;
-  font-family: 'TenorSans-Regular', sans-serif;
+
+.gallery-header .badge {
+  background-color: #d4edda;
+  color: #155724;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.gallery-header h1 {
+  font-size: 30px;
+  color: #1d3c34;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.gallery-header .logo-keraton {
+  width: 60px;
+  height: 55px;
+  margin-right: 10px;
+}
+.card {
+  border: none;
+}
+.card-img-top {
+  object-fit: cover;
+  height: 300px; 
+  width: 100%;
+  border-radius: 0%;
+}
+.naviarrows {
+  position: relative;
+}
+.naviarrows .butarrow {
+  border-radius: 50%;
+  padding: 2px 7px;
+  font-size: 18px; 
+  margin: 0 10px;
+}
+
+.naviarrows .butarrow i {
+  font-size: 1.0rem;
 }

@@ -1,115 +1,68 @@
 ---
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../../styles/Homepage/Home_gallery.css";
+import Baselayout from "../../layouts/Baselayout.astro"
+import "../../styles/Homepage/Home_gallery.css"
 ---
 
-    <!-- NOTE Exhibition and Event, EVENT INDEX -->
-    <div class="container-fluid mt-4" style=" width: 88%;">
-        <div class="row justify-content-center frame-41">
-          <div class="col-12 text-start mb-4">
-            <div class="badge exhibition-event">
-              Exhibition and Event
-          
+<Baselayout>
+        <div class="bungkus">
+          <div class="container py-5 position-relative mt-4 ">
+            <!-- Header Section -->
+            <div class="gallery-header">
+              <span class="badge">Gallery Museum</span>
+              <h1 class="title mt-2">
+                <img src="./img/logo-keraton.png" class="logo-keraton" alt="Logo Keraton">Teras Foto
+              </h1>
             </div>
-          </div>
-          <div class="col-12 mb-4">
-            <div class="d-flex justify-content-between align-items-center frame-23">
-              <div class="d-flex align-items-center frame-39">
-                <img class="group-6" src="../img/icon/Group 6 hijau.svg" />
-                <div class="title ms-3 h2" style="font-family: TenorSans-Regular, sans-serif; color: #0e3121;">Kunjungi Acara dan Pameran</div>
-              </div>
-              <div class="link">
-                <div class="d-flex align-items-center group-3-copy-2">
-                  <div class="view-all-benefits btn">Lihat Acara dan pameran
-                  <img class="group ms-2" src="../img/icon/arrow-right.svg" />
+
+            <!-- Gallery Section -->
+            <div class="row g-4 mt-5">
+              <!-- Image 1 -->
+              <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="card">
+                  <img src="./img/keretaraja.png" class="card-img-top" alt="Kereta Kencana">
+                  <div class="card-body">
+                    <p class="card-text">Kereta Kencana Kagungan Dalem Museum Waharanatha</p>
+                  </div>
                 </div>
+              </div>
+
+              <!-- Image 2 -->
+              <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="card">
+                  <img src="./img/pajangankuda.png" class="card-img-top" alt="Koleksi Museum">
+                  <div class="card-body">
+                    <p class="card-text">Koleksi di Kagungan Dalem Museum Waharanatha</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Image 3 -->
+              <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="card">
+                  <img src="./img/keraton-ngayogyakarta.webp" class="card-img-top" alt="Museum Kedhaton">
+                  <div class="card-body">
+                    <p class="card-text">Kagungan Dalem Museum Kedhaton</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Image 4 -->
+              <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="card">
+                  <img src="./img/taman-sari2.png" class="card-img-top" alt="Taman Sari">
+                  <div class="card-body">
+                    <p class="card-text">Salah satu sudut Kagungan Dalem Taman Sari</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-12">
-            <div class="row g-4">
-              <div class="col-md-4">
-                <div class="card h-100 border-0">
-                  <img class="card-img-top image rounded-0" src="../img/image0.png" />
-                  <div class="card-body d-flex flex-column">
-                    <div class="headline-paragraph-and-badge mb-3">
-                      <div class="headline-and-badge">
-                        <div class="badge-group mb-2">
-                          <div class="subtitle">03 January 2023 - 05 January 2023</div>
-                        </div>
-                        <div class="title2">
-                          Effective product marketing techniques for small businesses
-                        </div>
-                      </div>
-                    </div>
-                    <div class="mt-auto">
-                      <div class="button d-flex align-items-center justify-content-start">
-                        <div class="text btn">Booking sekarang
-                        <img class="chevron-right ms-2" src="../img/icon/chevron-right-gold.svg" />
-                      </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card h-100 border-0">
-                  <img class="card-img-top image rounded-0" src="../img/image1.png" />
-                  <div class="card-body d-flex flex-column">
-                    <div class="headline-paragraph-and-badge mb-3">
-                      <div class="headline-and-badge">
-                        <div class="badge-group mb-2">
-                          <div class="subtitle">03 January 2023 - 05 January 2023</div>
-                        </div>
-                        <div class="title2">
-                          Unlocking the secrets of effective time management
-                        </div>
-                      </div>
-                    </div>
-                    <div class="mt-auto">
-                      <div class="button d-flex align-items-center justify-content-start">
-                        <div class="text btn">Booking sekarang
-                        <img class="chevron-right2 ms-2" src="../img/icon/chevron-right-gold.svg" />
-                      </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card h-100 border-0 ">
-                  <img class="card-img-top image rounded-0" src="../img/image2.png" />
-                  <div class="card-body d-flex flex-column">
-                    <div class="headline-paragraph-and-badge mb-3">
-                      <div class="headline-and-badge">
-                        <div class="badge-group mb-2">
-                          <div class="subtitle">03 January 2023 - 05 January 2023</div>
-                        </div>
-                        <div class="title2">
-                          Launching your product business: From idea to market success
-                        </div>
-                      </div>
-                    </div>
-                    <div class="mt-auto">
-                      <div class="button d-flex align-items-center justify-content-start">
-                        <div class="text btn">Booking sekarang
-                        <img class="chevron-right3 ms-2" src="../img/icon/chevron-right-gold.svg" />
-                      </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
+            <!-- Navigation Arrows -->
+            <div class="d-flex mt-4 naviarrows">
+              <button class="btn btn-outline-secondary butarrow"><i class="bi bi-chevron-left"></i></button>
+              <button class="btn btn-outline-secondary butarrow"><i class="bi bi-chevron-right"></i></button>
             </div>
           </div>
         </div>
-      </div>
 
-
-
-<script
-  src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"
->
-  import "bootstrap/dist/js/bootstrap.bundle.min.js";
-</script>
+</Baselayout>

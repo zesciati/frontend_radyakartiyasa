@@ -1,0 +1,28 @@
+---
+// *ini digunakan untuk template yang akan dipakai berbagai halaman*
+const { pageTitle } = Astro.props;
+import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+
+    <Navbar />
+    <!-- <h1>{pageTitle}</h1> -->
+    <slot />
+    <Footer />
+    <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"
+>
+  import "bootstrap/dist/js/bootstrap.bundle.min.js";
+</script>
+  </body>
+</html>

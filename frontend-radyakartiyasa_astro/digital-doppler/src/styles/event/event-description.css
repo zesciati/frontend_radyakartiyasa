@@ -1,5 +1,6 @@
 .event-description {
     margin-top: 30px;
+    position: relative;
   }
   .event-description h2 {
     font-size: 1.8rem;
@@ -49,4 +50,9 @@
   }
   .btn:hover {
     border-color: #0e3121;
+  }
+  @media (max-width: 480px){
+    .event-description {
+      height: 1000px;
+    }
   }

@@ -1,6 +1,11 @@
 .event-description {
     margin-top: 30px;
   }
+  .event-sidebar{
+    position: absolute;
+    top: 0;
+    
+  }
   .event-description h2 {
     font-size: 1.8rem;
     font-weight: bold;
@@ -49,4 +54,11 @@
   }
   .btn:hover {
     border-color: #0e3121;
+  }
+  @media (max-width: 480px){
+    .event-sidebar{
+      position: absolute;
+      top: 55%;
+      left: 0;
+    }
   }

@@ -1,6 +1,9 @@
 .contact-section {
   background: linear-gradient(to bottom, #032415 50%, #fff7e6 50%);
-  position: relative;
+  /* position: relative; */
+  position: absolute;
+  top: 84.12%;
+  
 }
 .contact-section .contact-label {
   position: absolute;
@@ -25,4 +28,27 @@
 }
 .info-card p {
   margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    top: 84.3%;
+    
+  }
+  .lebih{
+    margin-bottom: 40%;
+  }
+}
+@media (max-width: 480px){
+  .contact-section {
+    top: 87%;
+    height: 26%;
+  
+  }
+  .kecil{
+    position:absolute;
+    top: 23%;
+    height: 70%;
+  }
+  
 }

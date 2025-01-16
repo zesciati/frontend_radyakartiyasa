@@ -2,6 +2,9 @@
   background-color: #0e3121;
   color: #ffffff;
   font-family: "AnekBangla-Regular", sans-serif;
+  position: relative;
+  height: 1180px;
+  
 }
 
 
@@ -43,6 +46,18 @@
 @media (max-width: 768px) {
   .faq-container {
     flex-direction: column;
+  }
+  .lebar-faq{
+    height: 1480px;
+  }
+}
+
+@media (max-width: 480px){
+  /* .faq-container {
+    flex-direction: column;
+  } */
+  .lebar-faq{
+    height: 1680px ;
   }
 }
 .collapse-icon {

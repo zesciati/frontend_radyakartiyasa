@@ -1,0 +1,27 @@
+.parent{
+  padding: 30px;
+  width: 50rem;
+  height: 20vh;
+  background-color: #0b0c11;
+  color: white;
+  position: relative;
+}
+.child{
+  padding: 20px;
+  background-color: #0071ff;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 90%;
+  height: 17vh;
+  font-size: 2.9vh;
+}
+.parent > h2{
+  color:tomato;
+  font-size: 3.9vh;
+}
+.parent > p {
+  color: wheat;
+  font-size: 2.9vh;
+  margin-right:80px ;
+}

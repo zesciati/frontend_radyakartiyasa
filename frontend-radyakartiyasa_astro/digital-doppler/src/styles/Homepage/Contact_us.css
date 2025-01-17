@@ -32,12 +32,13 @@
 
 @media (max-width: 768px) {
   .contact-section {
-    top: 84.3%;
-    
+    top: 84.17%;
+    height: 440px;
   }
   .lebih{
     margin-bottom: 40%;
   }
+
 }
 @media (max-width: 480px){
   .contact-section {

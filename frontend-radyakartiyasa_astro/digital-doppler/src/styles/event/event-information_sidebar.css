@@ -3,7 +3,7 @@
   }
   .event-sidebar{
     position: absolute;
-    top: 0;
+    top: -10%;
     
   }
   .event-description h2 {
@@ -54,6 +54,14 @@
   }
   .btn:hover {
     border-color: #0e3121;
+  }
+  @media (max-width: 768px){
+    .event-sidebar{
+      position: absolute;
+      top: -50px;
+      left: 0;
+      
+    }
   }
   @media (max-width: 480px){
     .event-sidebar{

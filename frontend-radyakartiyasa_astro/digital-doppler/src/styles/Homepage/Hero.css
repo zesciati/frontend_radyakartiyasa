@@ -2,7 +2,7 @@
   position: relative;
   height: 835px;
   overflow: hidden;
-  
+  position: relative;
 }
 
 .hero-image {
@@ -97,13 +97,17 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 480px) {
   .content-box {
       padding: 20px;
+      
   }
 
   .title {
       font-size: 20px;
       line-height: 24px;
+  }
+  .hero-section{
+    height: 720px;
   }
 }

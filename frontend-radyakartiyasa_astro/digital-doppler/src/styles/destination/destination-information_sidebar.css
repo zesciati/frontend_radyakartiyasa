@@ -3,7 +3,7 @@
 }
 .destination-sidebar{
   position: absolute;
-  top: 800px;
+  top: 670px;
 }
 .event-info i {
   font-size: 1.2rem;
@@ -41,9 +41,15 @@
 .btn:hover {
   border-color: #0e3121;
 }
+@media (max-width: 768px){
+  .destination-sidebar{
+    position: absolute;
+    top: 760px;
+  }
+}
 @media (max-width: 480px){
   .destination-sidebar{
     position: absolute;
-    top: 1800px;
+    top: 1740px;
   }
 }

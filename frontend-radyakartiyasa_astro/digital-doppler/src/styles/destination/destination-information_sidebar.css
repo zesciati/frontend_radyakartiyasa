@@ -1,6 +1,10 @@
 .event-info li {
   margin-bottom: 20px;
 }
+.destination-sidebar{
+  position: absolute;
+  top: 800px;
+}
 .event-info i {
   font-size: 1.2rem;
   color: #000000;
@@ -36,4 +40,10 @@
 }
 .btn:hover {
   border-color: #0e3121;
+}
+@media (max-width: 480px){
+  .destination-sidebar{
+    position: absolute;
+    top: 1800px;
+  }
 }

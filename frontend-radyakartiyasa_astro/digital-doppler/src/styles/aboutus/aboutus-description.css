@@ -1,0 +1,55 @@
+.aboutus-description {
+  
+  position: relative;
+  height: 90vh;
+}
+.aboutus-description h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 90px;
+}
+.aboutus-description p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-top: 20px;
+}
+
+.btn-view-museum {
+  background: var(--primary, #0e3121);
+  border-style: solid;
+  border-color: var(--primary, #0e3121);
+  border-width: 1px;
+  padding: 10px 40px;
+  color: white;
+  align-items: center;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-flex;
+  gap: 10px;
+}
+.btn-booking {
+  background: var(--primary, #0e3121);
+  border-style: solid;
+  border-color: var(--primary, #0e3121);
+  border-width: 1px;
+  padding: 10px 70px;
+  color: white;
+  align-items: center;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-flex;
+  gap: 10px;
+}
+.judul{
+  color: #0E3121;
+}
+@media (max-width: 768px){
+  .aboutus-description{
+    height: 130vh;;
+  }
+}
+@media (max-width: 480px){
+  .aboutus-description{ 
+    height: 210vh;
+  }
+}

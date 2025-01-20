@@ -49,9 +49,9 @@
     display: inline-flex;
     gap: 10px;
   }
-  .btn{
+  /* .btn{
     border-color: var(--primary, #0e3121);
-  }
+  } */
   .btn:hover {
     border-color: #0e3121;
   }

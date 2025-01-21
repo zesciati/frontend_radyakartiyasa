@@ -1,0 +1,9 @@
+.nav-item button {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 0;
+  }
+  .nav-item button:hover {
+    background-color: #D6A84D;
+    color: white;
+  }
+  

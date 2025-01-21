@@ -1,6 +1,9 @@
 ---
 import Baselayout from "../../layouts/Baselayout.astro"
 import "../../styles/Homepage/Home_gallery.css"
+
+// Import JSON data
+import homeGallery from "../../data/Homepage/home-gallery.json";
 ---
 
 <Baselayout>
@@ -16,46 +19,51 @@ import "../../styles/Homepage/Home_gallery.css"
 
             <!-- Gallery Section -->
             <div class="row g-4 mt-5">
+              {homeGallery.map((item) => (
               <!-- Image 1 -->
               <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <div class="card">
-                  <img src="./img/keretaraja.png" class="card-img-top" alt="Kereta Kencana">
+                  <img src={item.src} class="card-img-top" alt={item.alt}>
                   <div class="card-body">
-                    <p class="card-text">Kereta Kencana Kagungan Dalem Museum Waharanatha</p>
+                    <p class="card-text">{item.text}</p>
                   </div>
                 </div>
               </div>
 
               <!-- Image 2 -->
-              <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+              {/* <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <div class="card">
                   <img src="./img/pajangankuda.png" class="card-img-top" alt="Koleksi Museum">
                   <div class="card-body">
                     <p class="card-text">Koleksi di Kagungan Dalem Museum Waharanatha</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <!-- Image 3 -->
-              <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+              {/* <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <div class="card">
                   <img src="./img/keraton-ngayogyakarta.webp" class="card-img-top" alt="Museum Kedhaton">
                   <div class="card-body">
+                    
                     <p class="card-text">Kagungan Dalem Museum Kedhaton</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <!-- Image 4 -->
-              <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+              {/* <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                 <div class="card">
                   <img src="./img/taman-sari2.png" class="card-img-top" alt="Taman Sari">
                   <div class="card-body">
                     <p class="card-text">Salah satu sudut Kagungan Dalem Taman Sari</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
+            ))}
             </div>
+
+            
 
             <!-- Navigation Arrows -->
             <div class="d-flex mt-4 naviarrows">

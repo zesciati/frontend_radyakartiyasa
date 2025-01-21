@@ -5,3 +5,4 @@
 #SECTION - Home gallery ✔
 #!SECTION - event index ✔
 #SECTION - destination index ✔
+#!SECTION - testimonial

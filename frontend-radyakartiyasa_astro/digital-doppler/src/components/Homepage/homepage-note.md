@@ -4,3 +4,4 @@
 -- Homepage
 #SECTION - Home gallery ✔
 #!SECTION - event index ✔
+#SECTION - destination index ✔

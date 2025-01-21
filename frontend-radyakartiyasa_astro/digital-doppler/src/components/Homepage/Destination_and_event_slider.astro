@@ -3,6 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../../styles/Homepage/Destinationeventslider.css";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+// Import JSON data
+import homeDestinationIndex from "../../data/Homepage/home-destinationindex.json";
+
 title: "Destination Index"
 description: "Destinasi"
 permalink: "/Destination_index/museum-packages/"
@@ -24,43 +27,19 @@ layout: "default"
 
             <div class="row g-4">
               <!-- Card 1 -->
+              {homeDestinationIndex.map((item) => (
               <div class="col-lg-4 col-md-6">
                 <div class="card h-100  border-0 " style="background: none;">
-                  <img src="../img/kagungan-dalem.webp" class="card-img-top rounded-0" alt="Kagungan Dalem Museum Kedhaton">
+                  <img src={item.src} class="card-img-top rounded-0" alt={item.alt}>
                   <div class="card-body">
-                    <h5 class="card-title">Kagungan Dalem Museum Kedhaton</h5>
-                    <p class="card-text">Museum Keraton Yogyakarta adalah istana di Yogyakarta, Indonesia, yang menjadi kediaman Sultan dan keluarganya juga sebagai pusat budaya Jawa yang menampilkan artefak kerajaan.</p>
+                    <h5 class="card-title">{item.title}</h5>
+                    <p class="card-text">{item.text}</p>
                     <a href="#" class="btn btn-outline-warning informasi-detail">Informasi detail <img src="../img/icon/chevron-right-gold.svg" class="ms-2" alt="Chevron"></a>
                     <a href="#" class="btn btn-booking-color ms-2">Booking <img src="../img/icon/arrow-right-gold.svg" class="ms-2" alt="Arrow"></a>
                   </div>
                 </div>
               </div>
-
-              <!-- Card 2 -->
-              <div class="col-lg-4 col-md-6">
-                <div class="card h-100  border-0 " style="background: none;">
-                  <img src="../img/taman-sari.jpg" class="card-img-top rounded-0" alt="Tamansari">
-                  <div class="card-body">
-                    <h5 class="card-title">Kagungan Dalem Tamansari</h5>
-                    <p class="card-text">Taman Sari Yogyakarta, atau Taman Sari Keraton, adalah bekas taman istana Keraton Yogyakarta yang dibangun oleh Sultan Hamengku Buwono I pada 1758-1765.</p>
-                    <a href="#" class="btn btn-outline-warning informasi-detail">Informasi detail <img src="../img/icon/chevron-right-gold.svg" class="ms-2" alt="Chevron"></a>
-                    <a href="#" class="btn btn-booking-color ms-2">Booking <img src="../img/icon/arrow-right-gold.svg" class="ms-2" alt="Arrow"></a>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Card 3 -->
-              <div class="col-lg-4 col-md-6" >
-                <div class="card h-100 border-0 " style="background: none;">
-                  <img src="../img/wahanarata.jpg" class="card-img-top rounded-0" alt="Museum Wahanarata">
-                  <div class="card-body ">
-                    <h5 class="card-title">Kagungan Dalem Museum Wahanarata</h5>
-                    <p class="card-text">Museum Wahanarata, atau Museum Kereta Keraton, terletak di barat Keraton Yogyakarta, tepatnya di Jalan Rotowijayan, dekat kantor Kemantren Kraton.</p>
-                    <a href="#" class="btn btn-outline-warning informasi-detail">Informasi detail <img src="../img/icon/chevron-right-gold.svg" class="ms-2" alt="Chevron"></a>
-                    <a href="#" class="btn btn-booking-color ms-2 " >Booking <img src="../img/icon/arrow-right-gold.svg" class="ms-2" alt="Arrow"></a>
-                  </div>
-                </div>
-              </div>
+              ))} 
             </div>
           </div>
         </div>

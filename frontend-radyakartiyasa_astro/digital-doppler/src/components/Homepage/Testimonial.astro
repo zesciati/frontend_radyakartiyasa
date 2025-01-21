@@ -1,5 +1,8 @@
 ---
 import "bootstrap/dist/css/bootstrap.min.css";
+
+// Import JSON data
+import homeTestimonial from "../../data/Homepage/home-testimonial.json";
 ---
 <!-- *tidak ada file eksternal css* -->
 
@@ -16,6 +19,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
   <!-- Cards Section -->
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-1">
     <!-- Card 1 -->
+    {homeTestimonial.map((item) => (
     <div class="col">
       <div class="card h-100 border-1 shadow-sm">
         <div class="card-body">
@@ -30,74 +34,19 @@ import "bootstrap/dist/css/bootstrap.min.css";
             </div>
           </div>
           <p class="card-text text-secondary" style="font-family: 'AnekBangla-Regular', sans-serif;">
-            This product has simplified my life and enhanced my productivity. It's incredibly user-friendly, and the support team has been responsive and helpful. I'm truly impressed!
+            {item.text}
           </p>
           <div class="d-flex align-items-center">
-            <img src="../img/Avatarbreanna.png" alt="Breanna Butler" class="rounded-circle me-3" width="48" height="48">
+            <img src={item.src} alt={item.alt} class="rounded-circle me-3" width="48" height="48">
             <div>
-              <h6 class="mb-0">Breanna Butler</h6>
-              <small class="text-secondary">Project Manager</small>
+              <h6 class="mb-0">{item.name}</h6>
+              <small class="text-secondary">{item.title}</small>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- Card 2 -->
-    <div class="col">
-      <div class="card h-100 border-1 shadow-sm">
-        <div class="card-body">
-          <div class="mb-3">
-            <!-- Star Icons -->
-            <div class="d-flex">
-              <img src="../img/icon/Star icon.svg" alt="Star" width="16" height="16" class="me-1">
-              <img src="../img/icon/Star icon.svg" alt="Star" width="16" height="16" class="me-1">
-              <img src="../img/icon/Star icon.svg" alt="Star" width="16" height="16" class="me-1">
-              <img src="../img/icon/Star icon.svg" alt="Star" width="16" height="16" class="me-1">
-              <img src="../img/icon/Star icon.svg" alt="Star" width="16" height="16">
-            </div>
-          </div>
-          <p class="card-text text-secondary" style="font-family: 'AnekBangla-Regular', sans-serif;">
-            This product has simplified my life and enhanced my productivity. It's incredibly user-friendly, and the support team has been responsive and helpful. I'm truly impressed!
-          </p>
-          <div class="d-flex align-items-center">
-            <img src="../img/Avatargeorge.png" alt="George Dean" class="rounded-circle me-3" width="48" height="48">
-            <div>
-              <h6 class="mb-0">George Dean</h6>
-              <small class="text-secondary">Marketing Manager</small>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Card 3 -->
-    <div class="col">
-      <div class="card h-100 border-1 shadow-sm">
-        <div class="card-body">
-          <div class="mb-3">
-            <!-- Star Icons -->
-            <div class="d-flex">
-              <img src="../img/icon/Star icon.svg" alt="Star" width="16" height="16" class="me-1">
-              <img src="../img/icon/Star icon.svg" alt="Star" width="16" height="16" class="me-1">
-              <img src="../img/icon/Star icon.svg" alt="Star" width="16" height="16" class="me-1">
-              <img src="../img/icon/Star icon.svg" alt="Star" width="16" height="16" class="me-1">
-              <img src="../img/icon/Star icon.svg" alt="Star" width="16" height="16">
-            </div>
-          </div>
-          <p class="card-text text-secondary" style="font-family: 'AnekBangla-Regular', sans-serif;">
-            This product has simplified my life and enhanced my productivity. It's incredibly user-friendly, and the support team has been responsive and helpful. I'm truly impressed!
-          </p>
-          <div class="d-flex align-items-center">
-            <img src="../img/Avatarrobert.png" alt="Robert Nguyen" class="rounded-circle me-3" width="48" height="48">
-            <div>
-              <h6 class="mb-0">Robert Nguyen</h6>
-              <small class="text-secondary">Product Manager</small>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+      ))}
   </div>
 </div>
 

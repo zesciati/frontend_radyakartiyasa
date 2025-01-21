@@ -1,0 +1,23 @@
+[
+  {
+    "src": "/img/Avatarbreanna.png",
+    "alt": "perempuan",
+    "name":"Breanna Butler",
+    "title":"Project Manager",
+    "text": "This product has simplified my life and enhanced my productivity. It's incredibly user-friendly, and the support team has been responsive and helpful. I'm truly impressed!"
+  },
+  {
+    "src": "/img/Avatargeorge.png",
+    "alt": "laki-laki1",
+    "name":"George Dean",
+    "title":"Marketing Manager",
+    "text": "This product has simplified my life and enhanced my productivity. It's incredibly user-friendly, and the support team has been responsive and helpful. I'm truly impressed!"
+  },
+  {
+    "src": "/img/Avatarrobert.png",
+    "alt": "laki-laki2",
+    "name":"Robert Nguyen",
+    "title":"Product Manager",
+    "text": "This product has simplified my life and enhanced my productivity. It's incredibly user-friendly, and the support team has been responsive and helpful. I'm truly impressed!"
+  }
+]

@@ -6,8 +6,9 @@ document.getElementById("contactForm").addEventListener("submit", async function
   const turnstileToken = formData.get("cf-turnstile-response");
 
   // Verifikasi Turnstile
-  const secretKey = "0x4AAAAAAA5vzyee7LsZ2vbqAEc8p1kpCl8"; 
+  const secretKey = "0x4AAAAAAA51ibMx3DpVadUsMibqBaJBqsc"; 
   let turnstileResult;
+
   try {
     const turnstileResponse = await fetch(
       "https://challenges.cloudflare.com/turnstile/v0/siteverify",
@@ -25,27 +26,26 @@ document.getElementById("contactForm").addEventListener("submit", async function
     turnstileResult = await turnstileResponse.json();
 
     if (!turnstileResult.success) {
-      console.error("Turnstile verification failed:", turnstileResult["error-codes"]);
-      alert("Verifikasi Turnstile gagal. Silakan coba lagi.");
+      console.error("Verification failed:", turnstileResult["error-codes"]);
+      alert("Verifikasi gagal. Silahkan coba lagi.");
       return;
     }
   } catch (error) {
-    console.error("Error during Turnstile verification:", error);
+    console.error("Error during verification:", error);
     alert("Terjadi kesalahan dalam proses verifikasi.");
     return;
-  }
+    }
 
   // Jika Turnstile berhasil, kirim data ke Directus
   try {
     const directusResponse = await fetch(
-      "https://backenddirectus.madebybagus.xyz/", // Masih ada kesalahan di domain nya
+      "https://backenddirectus.madebybagus.xyz/items/contact_us",
       {
         method: "POST",
         headers: {
-          Authorization: "Bearer nAHUK3upzr2B-y3VpyGcJIOjNvoUJWgE", 
-          "CF-Access-Client-Id": "038142b43104dacb7d96f88171f1bca3.access",
-          "CF-Access-Client-Secret":
-            "3a79ab041500c7f1019a64502b022d49b833ed6a70c9d767482cb4402097050d",
+          Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA5YTFiYmQ2LWUwMGQtNGFlNy1hNjM4LTkxMzI3Y2NiMTY1MCIsInJvbGUiOiIxN2VkN2U3Mi0zMmI1LTRlNzQtOThiNS04YTcyNGUwN2Q2ZTgiLCJhcHBfYWNjZXNzIjp0cnVlLCJhZG1pbl9hY2Nlc3MiOnRydWUsImlhdCI6MTczNzQyNTU4NiwiZXhwIjoxNzM3NDI2NDg2LCJpc3MiOiJkaXJlY3R1cyJ9.bC1WTIqVpXkz5Djwg6V1wlIXYf16yAcLoYzxvFqD3OI",
+          "CF-Access-Client-Id": "afb26c8995066a72ef375fcffb9f1d47.access",
+          "CF-Access-Client-Secret": "f7f4995a6d1cd59926c34ffda3a1b3014f4eb7cc79855af29b97ba9d53deaf97",
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
@@ -61,11 +61,10 @@ document.getElementById("contactForm").addEventListener("submit", async function
       alert("Gagal menyimpan data ke Directus.");
       return;
     }
-
     // Jika berhasil, tampilkan pesan sukses
     alert("Pesan Anda berhasil dikirim!");
   } catch (error) {
     console.error("Error during Directus API request:", error);
     alert("Terjadi kesalahan saat mengirim data ke Directus.");
-  }
+    }
 });

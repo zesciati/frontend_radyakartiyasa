@@ -46,9 +46,14 @@
   display: inline-flex;
   gap: 10px;
 }
+/* @media (width: 767px){
+  .destination-description{
+    height: 19000vh;
+  }
+} */
 @media (max-width: 768px){
   .destination-description{
-    height: 120vh;;
+    height: 110vh;
   }
 }
 @media (max-width: 480px){

@@ -1,4 +1,7 @@
 ---
+// Import JSON data
+import destinationHero from "../../data/destinations/destination-hero.json";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../styles/destination/destination-hero.css";
 import Navbar from "../Navbar.astro";
@@ -11,39 +14,41 @@ import Navbar from "../Navbar.astro";
     <div class="rectangle-9"></div>
     <div id="cardCarousel" class="carousel slide konten-slider" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        {destinationHero.map((item, index) => (
+        <div class={`carousel-item ${index === 0 ? 'active' : ''}`}>
           <div class="row justify-content-center">
             <div class="col-md-4">
               <div class="card bg-transparent">
-                <img src="../img/keretaraja.png" class="card-img-top" alt="Event Activity">
-                <p class="card-text text-center"><strong>Kegiatan Acara dan Pameran</strong></p>
+                <img src={item.src} class="card-img-top" alt={item.alt}>
+                <p class="card-text text-center"><strong>{item.text}</strong></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card bg-transparent">
+                <img src={item.src} class="card-img-top" alt={item.alt}>
+                <p class="card-text text-center"><strong>{item.text}</strong></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card bg-transparent">
+                <img src={item.src} class="card-img-top" alt={item.alt}>
+                <p class="card-text text-center"><strong>{item.text}</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        ))} 
+        {/* <div class="carousel-item">
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <div class="card bg-transparent">
+                <img src="../img/ruangraja.png" class="card-img-top" alt="Event Activity">
+                <p class="card-text text-center"><strong>Kegiatan Lain</strong></p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card bg-transparent">
                 <img src="../img/pajangankuda.png" class="card-img-top" alt="Event Activity">
-                <p class="card-text text-center"><strong>Kegiatan Acara dan Pameran</strong></p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card bg-transparent">
-                <img src="../img/ruangraja.png" class="card-img-top" alt="Event Activity">
-                <p class="card-text text-center"><strong>Kegiatan Acara dan Pameran</strong></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row justify-content-center">
-            <div class="col-md-4">
-              <div class="card bg-transparent">
-                <img src="../img/ruangraja.png" class="card-img-top" alt="Event Activity">
-                <p class="card-text text-center"><strong>Kegiatan Lain</strong></p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card bg-transparent">
-                <img src="../img/pajangankuda.png" class="card-img-top" alt="Event Activity">
                 <p class="card-text text-center"><strong>Kegiatan Lain</strong></p>
               </div>
             </div>
@@ -54,7 +59,7 @@ import Navbar from "../Navbar.astro";
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <!-- Carousel controls -->
       <button class="carousel-control-prev" style="left: 0px;" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">

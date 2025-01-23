@@ -3,18 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="test.css">
+  
   <title>Document testing</title>
+  <style>
+    .container {
+  display: flex;
+  height: 200px;
+  border: 1px solid #ddd;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  align-self: flex-start; /* Nama rata atas */
+}
+
+.description {
+  align-self: center; /* Deskripsi di tengah */
+}
+
+  </style>
 </head>
 <body>
-  <div class="parent">
-    <h2>Parent element</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate excepturi, quidem nobis numquam id autem doloribus voluptates asperiores eius, impedit cumque facere, eveniet perferendis sunt nam velit optio doloremque quae!</p>
-
-    <div class="child"> 
-
-      <h2>Child element</h2>
+  <div class="container">
+    <div class="profile">
+      <img src="avatar.jpg" alt="Avatar" class="avatar">
+      <div class="info">
+        <h3 class="name">John Doe</h3>
+        <p class="description">Software Developer at XYZ</p>
+      </div>
     </div>
+  </div>
+  
 
   </div>
 </body>

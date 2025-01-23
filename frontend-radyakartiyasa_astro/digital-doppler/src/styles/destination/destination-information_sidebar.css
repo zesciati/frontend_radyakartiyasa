@@ -3,7 +3,7 @@
 }
 .destination-sidebar{
   position: absolute;
-  top: 670px;
+  top: -40px;
 }
 .event-info i {
   font-size: 1.2rem;
@@ -41,15 +41,31 @@
 .btn:hover {
   border-color: #0e3121;
 }
+
 @media (max-width: 768px){
   .destination-sidebar{
     position: absolute;
-    top: 760px;
+    top: -40px;
+    left: 0px;
+  }
+  .btn-booking{
+    padding: 10px 40px;
   }
 }
+/* @media (max-width: 767px){
+  .destination-sidebar{
+    position: absolute;
+    top: 1000vh; 
+    
+  }
+} */
+
 @media (max-width: 480px){
   .destination-sidebar{
     position: absolute;
-    top: 1740px;
+    top: 468px;
+  }
+  .btn-booking{
+    padding: 10px 72px;
   }
 }

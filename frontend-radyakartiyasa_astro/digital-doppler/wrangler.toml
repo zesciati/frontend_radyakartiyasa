@@ -1,0 +1,7 @@
+name = "frontend-radyakartiyasa"
+type = "javascript"
+
+[build]
+command = "npm run build"
+cwd = "frontend-radyakartiyasa/frontend-radyakartiyasa_astro/digital-doppler"
+upload_format = "service-worker"

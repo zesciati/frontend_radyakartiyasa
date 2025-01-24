@@ -35,3 +35,5 @@
 RAPIKAN filenya
 
 Buat cloudflare -> form contact us
+
+membuat getstaticpath ,lalu membuat folder [lang] di src untuk permalink

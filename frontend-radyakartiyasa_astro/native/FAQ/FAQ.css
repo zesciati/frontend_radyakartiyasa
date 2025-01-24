@@ -1,0 +1,84 @@
+body {
+  color: #ffffff;
+  font-family: "AnekBangla-Regular", sans-serif;
+  margin: 0; 
+  padding: 0;
+}
+
+.faq-heading {
+  font-family: "TenorSans-Regular", sans-serif;
+  font-size: 36px;
+}
+
+.faq-item {
+  border-top: 1px solid #ffffff;
+  padding-top: 24px;
+}
+
+.faq-item h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.faq-item p {
+  font-size: 16px;
+  color: #c7c7cc;
+}
+
+.badge {
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  padding: 2px 8px;
+  border-radius: 6px;
+  color: #15803d;
+  font-size: 12px;
+}
+
+.faq-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .faq-container {
+    flex-direction: column;
+  }
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon img {
+  width: 20px;
+  transition: transform 0.3s ease-in-out;
+  display: none; 
+}
+
+.icon img.plus-icon {
+  display: block;
+}
+
+.icon img.minus-icon {
+  display: none; 
+}
+
+.collapse.show ~ .icon img.plus-icon {
+  display: none; 
+}
+
+.collapse.show ~ .icon img.minus-icon {
+  display: block; 
+}
+
+.fullscreen-background {
+  background-color: #0e3121;
+  width: 100%; 
+  min-height: 100vh;
+  padding: 2rem 0; 
+  position: relative;
+}

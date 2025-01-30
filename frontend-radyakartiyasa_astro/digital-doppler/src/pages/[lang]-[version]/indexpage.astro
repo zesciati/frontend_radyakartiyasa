@@ -1,0 +1,38 @@
+---
+// import Homepage from '../index.astro';
+import Homepagelayout from "../../layouts/Homepagelayout.astro"
+import HomepageHero from "../../components/Homepage/Hero.astro"
+import HomepageAbout_us from "../../components/Homepage/About_us.astro"
+import HomepageDestinationIndex from "../../components/Homepage/Destination_and_event_slider.astro"
+import HomepagePromo from "../../components/Homepage/Promo.astro"
+import HomepageEventIndex from "../../components/Homepage/Event_index.astro"
+import HomepageGallery from "../../components/Homepage/Home_gallery.astro"
+import HomepageTestimonial from "../../components/Homepage/Testimonial.astro"
+import HomepageFAQ from "../../components/Homepage/FAQ.astro"
+import HomepageDoDont from "../../components/Homepage/do's_dont's.astro";
+const pageTitle = "Home Page Layout 🚀"
+
+export function getStaticPaths () {
+  
+  return [
+  {params: {lang: 'id', version: 'v1'}},
+  {params: {lang: 'en', version: 'v1'}},
+  ];
+}
+const { lang, version } = Astro.params;
+---
+
+
+<!-- HOMEPAGE -->
+
+<Homepagelayout pageTitle={pageTitle}>
+  <HomepageHero/>
+  <HomepageAbout_us/>
+  <HomepageDestinationIndex/>
+  <HomepagePromo/>
+  <HomepageEventIndex/>
+  <HomepageGallery/>
+  <HomepageDoDont />
+  <HomepageTestimonial/>
+  <HomepageFAQ/>
+</Homepagelayout>

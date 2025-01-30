@@ -5,4 +5,5 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   // root: './src/pages', // Arahkan root ke folder `pages`
   // outDir: '../dist',   // Output hasil build, sesuaikan dengan keperluan
+  
 });

@@ -1,0 +1,23 @@
+---
+import Eventpage from '../eventpage.astro';
+
+
+export async function getStaticPaths () {
+return [
+    {params: {lang: 'id' }},
+    {params: {lang: 'en-US' }},
+  ];
+}
+
+const { lang } = Astro.params;
+
+console.log("Lang:", lang);
+// console.log("Version:", version);
+
+// NOTE - lihat kode_getStaticPaths.md di obsidian untuk melanjutkan 
+
+---
+
+
+<Eventpage/>
+

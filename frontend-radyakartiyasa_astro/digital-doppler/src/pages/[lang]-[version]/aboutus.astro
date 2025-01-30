@@ -1,0 +1,15 @@
+---
+import Tentangkami from '../aboutus.astro';
+
+export function getStaticPaths () {
+  
+  return [
+  {params: {lang: 'id', version: 'v1'}},
+  {params: {lang: 'en', version: 'v1'}},
+  ];
+}
+const { lang, version } = Astro.params;
+---
+
+<Tentangkami/>
+

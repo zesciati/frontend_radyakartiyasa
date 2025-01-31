@@ -1,37 +1,19 @@
 {
-  
-    "name": "digital-doppler",
-  
-    "type": "module",
-  
-    "version": "1.0.0",
-  
-    "scripts": {
-  
-      
+  "name": "digital-doppler",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
     "dev": "astro dev",
-  
-      
     "build": "astro build",
-  
-      
     "preview": "astro preview"
-  
-    },
-  
-    "dependencies": {
-  
-      
+  },
+  "dependencies": {
     "@astrojs/cloudflare": "^12.2.1",
-  
-      
     "astro": "^5.2.1",
-  
-      
     "bootstrap": "^5.3.3",
-  
-      
     "bootstrap-icons": "^1.11.3"
-  
-    }
+  },
+  "devDependencies": {
+    "wrangler": "^3.107.0"
+  }
 }

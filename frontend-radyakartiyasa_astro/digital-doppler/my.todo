@@ -1,0 +1,10 @@
+Wrangler.toml: 
+  ☐ Membuat jalur untuk proyek dalam wrangler.toml
+
+VSCode-Shortcut:
+  ✔ Ctrl+G (Go to line) 
+  ✔ Ctrl+Shift+E (Show Explorer / Toggle focus) @done(25-02-01 18:36)
+  ✔ Ctrl+Enter (Insert line below) @done(25-02-01 18:39)
+  ✔ Ctrl+Shift+Enter (Insert line above) @done(25-02-01 18:39)
+  ✔ Ctrl+Shift+Tab (Navigate editor group history) @done(25-02-01 18:41)
+  ✔ Ctrl+K R (Reveal active file in Explorer) @done(25-02-01 18:43)

@@ -1,7 +1,5 @@
 name = "digital-doppler"
 compatibility_date = "2025-01-31"
-compatibility_flags = [ "formdata_parser_supports_files" ]
+compatibility_flags = [ "nodejs_compat" ]
 pages_build_output_dir = "./dist"
 
-[build]
-command = "npm run build"

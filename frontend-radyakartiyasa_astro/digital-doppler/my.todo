@@ -1,5 +1,15 @@
 Wrangler.toml: 
-  ☐ Membuat jalur untuk proyek dalam wrangler.toml
+  ✔ Membuat jalur untuk proyek dalam wrangler.toml @done(25-02-04 10:38)
+
+env.d.ts: @today
+  ✔ Menambahkan file env.d.ts di digital-doppler @done(25-02-04 10:40)
+
+Replace all frontmatter mockup to actual API fetching:
+  ✔ Destination index @done(25-02-04 11:03)
+  ✔ Event index @done(25-02-04 11:03)
+  ✔ Destination page @done(25-02-04 11:00)
+  ✔ Event page @done(25-02-04 11:00)
+  
 
 VSCode-Shortcut:
   ✔ Ctrl+G (Go to line) 

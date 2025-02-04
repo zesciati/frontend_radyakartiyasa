@@ -1,9 +1,17 @@
 [lang]-[version]: @today
   ☐ memperbaiki link navigasi sesuai dengan bahasa nya
-
-Cloudflare-deploy: @today
-  ☐ Memperbaiki cloudflare menganggap astro tidak ada
-    Apakah perlu ada file wrangler.toml? 
+path file di Astro: 
+  ☐ semua file termasuk destination harusnya dibawah file lang
+di file lang: 
+  ☐ ada file index.astro
+github: 
+  ☐ file yang didalem digital-doppler (hanya project folder yang di push)
+di file event: 
+  ☐ slider nya ga perlu.
+do's dont's dan accesibility:
+  ☐ dibuat dynamic placeholder. jumlah acces nya, do's dont's giman tampilannya
+dynamic assets placeholder:
+  ☐ depth first search untuk navbar bagian destinasi
 
 Archive:
   ✔ Ctrl+G (Go to line) 

@@ -1,0 +1,13 @@
+---
+import Acarapage from '../eventpage.astro';
+export function getStaticPaths () {
+return [
+    {params: {lang: 'id'}},
+    {params: {lang: 'en'}},
+  ];
+}
+
+const { lang } = Astro.params;
+---
+
+<Acarapage/>

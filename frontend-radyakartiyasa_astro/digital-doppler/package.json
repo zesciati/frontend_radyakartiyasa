@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.2.1",
+    "@astrojs/node": "^9.0.2",
     "astro": "^5.2.3",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3"

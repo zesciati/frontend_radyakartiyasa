@@ -1,20 +1,23 @@
-Wrangler.toml: 
-  ✔ Membuat jalur untuk proyek dalam wrangler.toml @done(25-02-04 10:38)
+[lang]-[version]: @today
+  ☐ memperbaiki link navigasi sesuai dengan bahasa nya
 
-env.d.ts: @today
-  ✔ Menambahkan file env.d.ts di digital-doppler @done(25-02-04 10:40)
+Cloudflare-deploy: @today
+  ☐ Memperbaiki cloudflare menganggap astro tidak ada
+    Apakah perlu ada file wrangler.toml? 
 
-Replace all frontmatter mockup to actual API fetching:
-  ✔ Destination index @done(25-02-04 11:03)
-  ✔ Event index @done(25-02-04 11:03)
-  ✔ Destination page @done(25-02-04 11:00)
-  ✔ Event page @done(25-02-04 11:00)
-  
-
-VSCode-Shortcut:
+Archive:
   ✔ Ctrl+G (Go to line) 
   ✔ Ctrl+Shift+E (Show Explorer / Toggle focus) @done(25-02-01 18:36)
   ✔ Ctrl+Enter (Insert line below) @done(25-02-01 18:39)
   ✔ Ctrl+Shift+Enter (Insert line above) @done(25-02-01 18:39)
   ✔ Ctrl+Shift+Tab (Navigate editor group history) @done(25-02-01 18:41)
   ✔ Ctrl+K R (Reveal active file in Explorer) @done(25-02-01 18:43)
+  Wrangler.toml: 
+    ✔ Membuat jalur untuk proyek dalam wrangler.toml @done(25-02-04 10:38)
+  env.d.ts: @today
+    ✔ Menambahkan file env.d.ts di digital-doppler @done(25-02-04 10:40)
+  Replace all frontmatter mockup to actual API fetching:
+    ✔ Destination index @done(25-02-04 11:03)
+    ✔ Event index @done(25-02-04 11:03)
+    ✔ Event page @done(25-02-04 11:00)
+    ✔ Destination page @done(25-02-04 11:00)
